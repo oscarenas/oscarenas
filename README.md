@@ -1,50 +1,56 @@
-<!-- Profile README · github.com/oscarenas -->
+<!--
+  Profile README · github.com/oscarenas
+  Everything under ./assets is generated. Edit profile.mjs, then run:  node scripts/build.mjs
+-->
 
-<h1 align="center">Oscar Arenas</h1>
-
-<p align="center">
-  <strong>Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM</strong><br/>
-  14+ years shipping web products for global brands — now building AI‑augmented experiences.
-</p>
-
-<p align="center">
-  <a href="https://resume-oscarenas.web.app"><img alt="Resume" src="https://img.shields.io/badge/Resume-resume--oscarenas.web.app-0F172A?style=flat-square&logo=astro&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/oscarenas"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-oscarenas-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="https://twitter.com/oscarenas"><img alt="X / Twitter" src="https://img.shields.io/badge/X-@oscarenas-000000?style=flat-square&logo=x&logoColor=white"></a>
-  <a href="mailto:oscarenas@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-oscarenas@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Oscar Arenas — Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM. 14+ years shipping web products for global brands — now building AI‑augmented experiences. Bogotá, Colombia · open to remote (LATAM · US · EU) · available for new opportunities." src="assets/hero-light.svg" width="100%">
+</picture>
 
 <p align="center">
-  📍 Bogotá, Colombia · 🌎 Open to remote (LATAM · US · EU) · ✅ Available for new opportunities<br/>
-  <sub>¿Prefieres español? Mi hoja de vida también está en <a href="https://resume-oscarenas.web.app/es">resume-oscarenas.web.app/es</a>.</sub>
+  <a href="https://resume-oscarenas.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-resume-dark.svg"><img alt="View resume" src="assets/btn-resume-light.svg" height="40"></picture></a>
+  <a href="https://resume-oscarenas.web.app/cv/oscar-arenas-en.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-cv-dark.svg"><img alt="Download CV (PDF)" src="assets/btn-cv-light.svg" height="40"></picture></a>
+  <a href="https://www.linkedin.com/in/oscarenas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
+  <a href="mailto:oscarenas@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img alt="Email me" src="assets/btn-email-light.svg" height="40"></picture></a>
 </p>
 
----
+<p align="center"><sub>¿Prefieres español? La hoja de vida también está en <a href="https://resume-oscarenas.web.app/es">resume-oscarenas.web.app/es</a>.</sub></p>
 
-## About me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="14+ years shipping web products for global brands · 90 product squads adopted my component libraries · 12 engineers mentored on TypeScript, accessibility and Core Web Vitals · 251 hours of certified learning in 2025 across 13 credentials" src="assets/stats-light.svg" width="100%">
+</picture>
 
-I'm a Senior Software Engineer with 14+ years building web products for global brands, currently focused on **AI‑augmented experiences**. My core stack is **Next.js, Node.js and TypeScript**, on top of a strong frontend foundation in React, design systems, accessibility (WCAG 2.2) and web performance.
+> [!TIP]
+> This profile has an agent‑ready twin. [resume‑oscarenas.web.app](https://resume-oscarenas.web.app/#agents) exposes **18 tools** to AI agents through WebMCP (`navigator.modelContext`) — a recruiter's agent can query the profile, filter experience by technology and book an intro call without scraping a single page.
 
-- 🤖 **AI in production** — I design and ship LLM‑powered product flows on the OpenAI and Anthropic APIs: conversational and generative features, prompt engineering and structured outputs that hold up in real usage.
-- 🏗️ **Frontend architecture** — at Publicis Sapient I led the front‑end architecture for Fortune 500 clients and built component libraries adopted across **90 product squads**.
-- 🧭 **Leadership** — I lead cross‑functional squads and have mentored 12 engineers on TypeScript, accessibility and Core Web Vitals.
-- ⚡ **AI‑assisted delivery** — I use AI for coding, review and delivery to move faster without giving up clean architecture and maintainability.
+## 01 · About
 
-**Now:** Senior Technology Engineer at [Publicis Global Delivery](https://www.publicisglobaldelivery.com/) (Publicis Sapient network), building experience‑led digital products for retail, finance and telco.<br>
-**Looking for:** Senior / Staff Frontend Engineer · Tech Lead · AI‑augmented product engineer.
+I build web products that hold up in production — and, lately, the AI layer on top of them. My core stack is **Next.js, Node.js and TypeScript**, on a strong frontend foundation in React, design systems, accessibility (WCAG 2.2) and web performance.
 
-## Stack
+- **AI in production** — LLM‑powered product flows on the OpenAI and Anthropic APIs: conversational and generative features, prompt engineering and structured outputs that behave under real usage. I also use AI every day for coding, review and delivery, without giving up clean architecture.
+- **Frontend architecture** — at Publicis Sapient I led the front‑end architecture for Fortune 500 clients and built component libraries adopted across 90 product squads.
+- **Leadership** — I lead cross‑functional squads, have mentored 12 engineers on TypeScript, accessibility and Core Web Vitals, and turn ambiguous problems into measurable impact.
 
 | | |
-|---|---|
-| **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white) ![Vue](https://img.shields.io/badge/Vue-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| **Backend & data** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square) |
-| **AI / LLM** | ![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white) ![Anthropic API](https://img.shields.io/badge/Anthropic_API-191919?style=flat-square&logo=anthropic&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) ![Prompt engineering](https://img.shields.io/badge/Prompt_engineering-334155?style=flat-square) ![Structured outputs](https://img.shields.io/badge/Structured_outputs-334155?style=flat-square) ![MCP](https://img.shields.io/badge/MCP_%2F_WebMCP-334155?style=flat-square) |
-| **Cloud & delivery** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square) ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
-| **Quality** | ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) ![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white) ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=69D3A7) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square) ![WCAG 2.2](https://img.shields.io/badge/WCAG_2.2-334155?style=flat-square) ![Core Web Vitals](https://img.shields.io/badge/Core_Web_Vitals-334155?style=flat-square) |
-| **Also** | Design systems · Micro‑frontends · PWA & Service Workers · OWASP Top 10 · Figma & design tokens · C/C++ · Embedded / IoT · MQTT |
+|:--|:--|
+| **Now** | Senior Technology Engineer at [Publicis Global Delivery](https://www.publicisglobaldelivery.com/) (Publicis Sapient network) — experience‑led products for retail, finance and telco |
+| **Looking for** | Senior / Staff Frontend Engineer · Tech Lead · AI‑augmented product engineer |
+| **Work mode** | Remote‑first across LATAM, US and EU time zones · hybrid in Bogotá possible · start in 2–4 weeks |
+| **Languages** | Spanish (native) · English (professional working proficiency) |
 
-## Things I've built
+## 02 · Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend & data: Node.js, Express, Fastify, GraphQL, REST APIs, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, prompt engineering, structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud & delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality & craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, design systems, micro‑frontends, PWA, OWASP Top 10. Design & hardware: Figma, design tokens, UI/UX foundations, C/C++, embedded / IoT, MQTT." src="assets/stack-light.svg" width="100%">
+</picture>
+
+<!--
+  Hidden for now. To bring it back: remove this comment wrapper and renumber the sections below (03 → 04, …).
+
+## 03 · Things I've built
 
 | Project | What it is | Stack |
 |---|---|---|
@@ -55,16 +61,24 @@ I'm a Senior Software Engineer with 14+ years building web products for global b
 | [**ecommerce‑api**](https://github.com/oscarenas/ecommerce-api) · [**commerce‑v1**](https://github.com/oscarenas/commerce-v1) | E‑commerce API service and its Next.js storefront. | Node.js · Express · Next.js |
 
 > Most of my recent client work lives in private repositories. Ask me about it — happy to walk through architecture and decisions.
+-->
 
-## Always learning
+## 03 · Always learning
 
 **251 hours** of certified training in 2025 across 13 credentials — AI & prompt engineering, Node.js, modern frontend, UX with Figma and business validation with LLMs. Full list on my [resume](https://resume-oscarenas.web.app/#certifications).
 
-## Beyond the keyboard
+## 04 · Beyond the keyboard
 
-🚴 Cycling · 🎵 Music · ✈️ Travel · 🎮 Gaming · 🍕 Pizza & craft beer<br>
-🗣️ Spanish (native) · English (professional working proficiency)
+🚴 Cycling · 🎵 Music · ✈️ Travel · 🎮 Gaming · 🍕 Pizza & craft beer
 
-## Let's talk
+## 05 · Let's talk
 
-The fastest way is [email](mailto:oscarenas@gmail.com) or [LinkedIn](https://www.linkedin.com/in/oscarenas). Based in Bogotá (UTC‑5), available Mon–Fri 09:00–17:00 for intro calls.
+Based in Bogotá (UTC‑5) · intro calls Mon–Fri, 09:00–17:00. Email or LinkedIn is fastest; I'm also on [X](https://twitter.com/oscarenas).
+
+<p align="center">
+  <a href="mailto:oscarenas@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-primary-dark.svg"><img alt="Email me" src="assets/btn-email-primary-light.svg" height="40"></picture></a>
+  <a href="https://www.linkedin.com/in/oscarenas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
+  <a href="https://resume-oscarenas.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-resume-dark.svg"><img alt="View resume" src="assets/btn-resume-light.svg" height="40"></picture></a>
+</p>
+
+<p align="center"><sub>Hand‑built SVG, theme‑aware via <code>&lt;picture&gt;</code> · no third‑party badges, no trackers.</sub></p>
