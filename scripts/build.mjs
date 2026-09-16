@@ -139,7 +139,7 @@ ${body}
 // Hero
 // ---------------------------------------------------------------------------
 function hero(t) {
-  const W = 1200, H = 420, R = 24;
+  const W = 1000, H = 400, R = 24;
   const defs = `
   <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="${t.grid}" stroke-width="1"/></pattern>
   <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55"><stop offset="0" stop-color="${t.accent}" stop-opacity="${t.glow}"/><stop offset="1" stop-color="${t.accent}" stop-opacity="0"/></radialGradient>
@@ -160,43 +160,43 @@ function hero(t) {
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${R}" fill="none" stroke="${t.border}"/>`);
 
   // Monogram
-  parts.push(`<rect x="56" y="48" width="64" height="64" rx="16" fill="url(#mono)"/>`);
-  parts.push(text(88, 90, profile.monogram, { size: 28, weight: 800, fill: '#ffffff', anchor: 'middle', tracking: -0.5 }));
+  parts.push(`<rect x="48" y="44" width="60" height="60" rx="15" fill="url(#mono)"/>`);
+  parts.push(text(78, 83, profile.monogram, { size: 26, weight: 800, fill: '#ffffff', anchor: 'middle', tracking: -0.5 }));
 
   // Availability pill (top-right), with a pulsing dot
   const pillFont = 14;
   const pillTextW = measure(profile.availability, pillFont, { tracking: 0.1 });
   const pillW = 14 + 8 + 10 + pillTextW + 16;
-  const pillX = W - 56 - pillW, pillY = 60, pillH = 36;
-  parts.push(`<rect x="${pillX}" y="${pillY}" width="${pillW}" height="${pillH}" rx="18" fill="${t.pillBg}" stroke="${t.pillBorder}"/>`);
+  const pillX = W - 48 - pillW, pillY = 56, pillH = 34;
+  parts.push(`<rect x="${pillX}" y="${pillY}" width="${pillW}" height="${pillH}" rx="17" fill="${t.pillBg}" stroke="${t.pillBorder}"/>`);
   const dotX = pillX + 14 + 4, dotY = pillY + pillH / 2;
   parts.push(`<circle cx="${dotX}" cy="${dotY}" r="4" fill="${SIGNAL}"/>
 <circle cx="${dotX}" cy="${dotY}" r="4" fill="none" stroke="${SIGNAL}" stroke-width="1.5" opacity="0.6">
   <animate attributeName="r" values="4;12" dur="2.2s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0.6;0" dur="2.2s" repeatCount="indefinite"/>
 </circle>`);
-  parts.push(text(pillX + 14 + 8 + 10, pillY + 23, profile.availability, { size: pillFont, weight: 600, fill: t.pillText, tracking: 0.1, fit: pillTextW }));
+  parts.push(text(pillX + 14 + 8 + 10, pillY + 22, profile.availability, { size: pillFont, weight: 600, fill: t.pillText, tracking: 0.1, fit: pillTextW }));
 
   // Type stack
-  parts.push(text(56, 160, profile.eyebrow.toUpperCase(), { size: 13, weight: 600, fill: t.text3, family: MONO, tracking: 2.2 }));
-  parts.push(text(53, 226, profile.name, { size: 72, weight: 800, fill: t.text, tracking: -2.5 }));
-  parts.push(text(56, 268, profile.focus, { size: 24, weight: 600, fill: t.brand, tracking: -0.2 }));
-  parts.push(text(56, 310, profile.tagline[0], { size: 19, weight: 400, fill: t.text2 }));
-  parts.push(text(56, 338, profile.tagline[1], { size: 19, weight: 400, fill: t.text2 }));
+  parts.push(text(48, 150, profile.eyebrow.toUpperCase(), { size: 13, weight: 600, fill: t.text3, family: MONO, tracking: 2.2 }));
+  parts.push(text(45, 212, profile.name, { size: 64, weight: 800, fill: t.text, tracking: -2.2 }));
+  parts.push(text(48, 250, profile.focus, { size: 22, weight: 600, fill: t.brand, tracking: -0.2 }));
+  parts.push(text(48, 290, profile.tagline[0], { size: 18, weight: 400, fill: t.text2 }));
+  parts.push(text(48, 316, profile.tagline[1], { size: 18, weight: 400, fill: t.text2 }));
 
   // Meta line: pin icon + location + remote
-  parts.push(`<path transform="translate(56,372)" d="M7 0a5 5 0 0 0-5 5c0 3.6 5 9 5 9s5-5.4 5-9a5 5 0 0 0-5-5zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="${t.muted}"/>`);
-  parts.push(text(76, 384, `${profile.location}   ·   ${profile.remote}`, { size: 14, weight: 500, fill: t.text3, tracking: 0.1 }));
+  parts.push(`<path transform="translate(48,350)" d="M7 0a5 5 0 0 0-5 5c0 3.6 5 9 5 9s5-5.4 5-9a5 5 0 0 0-5-5zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="${t.muted}"/>`);
+  parts.push(text(68, 362, `${profile.location}   ·   ${profile.remote}`, { size: 14.5, weight: 500, fill: t.text3, tracking: 0.1 }));
 
   // Console card (right)
-  const cx = 744, cy = 112, cw = 400, ch = 256, pad = 24, mono = 14, lh = 24;
+  const cw = 360, ch = 224, cx = W - 48 - cw, cy = 108, pad = 20, mono = 13, lh = 22;
   parts.push(`<rect x="${cx}" y="${cy}" width="${cw}" height="${ch}" rx="16" fill="${console_.bg}" stroke="${console_.border}"/>`);
-  parts.push(`<circle cx="${cx + 24}" cy="${cy + 20}" r="5" fill="#ff5f57"/><circle cx="${cx + 42}" cy="${cy + 20}" r="5" fill="#febc2e"/><circle cx="${cx + 60}" cy="${cy + 20}" r="5" fill="#28c840"/>`);
-  parts.push(text(cx + 84, cy + 24, `${profile.site} · agent-ready`, { size: 12, weight: 500, fill: console_.comment, family: MONO }));
-  parts.push(`<line x1="${cx}" y1="${cy + 40}" x2="${cx + cw}" y2="${cy + 40}" stroke="${console_.border}"/>`);
+  parts.push(`<circle cx="${cx + 20}" cy="${cy + 19}" r="5" fill="#ff5f57"/><circle cx="${cx + 38}" cy="${cy + 19}" r="5" fill="#febc2e"/><circle cx="${cx + 56}" cy="${cy + 19}" r="5" fill="#28c840"/>`);
+  parts.push(text(cx + 78, cy + 23, `${profile.site} · agent-ready`, { size: 11.5, weight: 500, fill: console_.comment, family: MONO }));
+  parts.push(`<line x1="${cx}" y1="${cy + 38}" x2="${cx + cw}" y2="${cy + 38}" stroke="${console_.border}"/>`);
 
   const line = (n, spans) => {
-    const y = cy + 40 + pad + 4 + n * lh;
+    const y = cy + 38 + pad + 4 + n * lh;
     const inner = spans.map(([s, color]) => `<tspan fill="${color}">${esc(s)}</tspan>`).join('');
     return `<text x="${cx + pad}" y="${y}" font-family="${MONO}" font-size="${mono}" xml:space="preserve">${inner}</text>`;
   };
@@ -208,8 +208,8 @@ function hero(t) {
   parts.push(line(4, [['  years: ', C.key], ['14', C.num], [',', C.punct]]));
   parts.push(line(5, [['  stack: ', C.key], ['[', C.punct], ['"Next.js"', C.str], [', ', C.punct], ['"Node"', C.str], [', ', C.punct], ['"TS"', C.str], [', ', C.punct], ['"AI"', C.str], [']', C.punct]]));
   parts.push(line(6, [['}', C.punct]]));
-  const caretY = cy + 40 + pad + 4 + 6 * lh - 13;
-  parts.push(`<rect class="caret" x="${cx + pad + mono * 0.6 + 4}" y="${caretY}" width="8" height="17" rx="1" fill="${C.kw}"/>`);
+  const caretY = cy + 38 + pad + 4 + 6 * lh - 12;
+  parts.push(`<rect class="caret" x="${cx + pad + mono * 0.6 + 4}" y="${caretY}" width="7.5" height="16" rx="1" fill="${C.kw}"/>`);
 
   return svg({ w: W, h: H, title: `${profile.name} — ${profile.eyebrow} · ${profile.focus}. ${profile.tagline.join(' ')}`, body: parts.join('\n'), defs, style });
 }
@@ -218,16 +218,21 @@ function hero(t) {
 // Stats strip
 // ---------------------------------------------------------------------------
 function statsStrip(t) {
-  const W = 1200, H = 176, gap = 24, n = stats.length;
+  const W = 1000, H = 168, gap = 20, n = stats.length, pad = 22;
   const cw = (W - gap * (n - 1)) / n;
   const parts = [];
   stats.forEach((s, i) => {
     const x = i * (cw + gap);
     parts.push(`<rect x="${x + 0.5}" y="0.5" width="${cw - 1}" height="${H - 1}" rx="16" fill="${t.card}" stroke="${t.border}"/>`);
-    parts.push(text(x + 24, 40, String(i + 1).padStart(2, '0'), { size: 12, weight: 600, fill: t.brand, family: MONO, tracking: 2 }));
-    parts.push(`<line x1="${x + 52}" y1="35.5" x2="${x + cw - 24}" y2="35.5" stroke="${t.hairline}"/>`);
-    parts.push(text(x + 22, 104, s.value, { size: 46, weight: 800, fill: t.text, tracking: -1.5 }));
-    s.lines.forEach((l, j) => parts.push(text(x + 24, 132 + j * 20, l, { size: 14, weight: 500, fill: t.text2 })));
+    parts.push(text(x + pad, 38, String(i + 1).padStart(2, '0'), { size: 12, weight: 600, fill: t.brand, family: MONO, tracking: 2 }));
+    parts.push(`<line x1="${x + pad + 28}" y1="33.5" x2="${x + cw - pad}" y2="33.5" stroke="${t.hairline}"/>`);
+    parts.push(text(x + pad - 2, 98, s.value, { size: 42, weight: 800, fill: t.text, tracking: -1.5 }));
+    const inner = cw - pad * 2;
+    s.lines.forEach((l, j) => {
+      let size = 14.5;
+      while (measure(l, size) > inner && size > 12) size -= 0.5; // auto-fit long labels
+      parts.push(text(x + pad, 126 + j * 19, l, { size, weight: 500, fill: t.text2 }));
+    });
   });
   const title = stats.map((s) => `${s.value} ${s.lines.join(' ')}`).join(' · ');
   return svg({ w: W, h: H, title, body: parts.join('\n') });
@@ -237,7 +242,7 @@ function statsStrip(t) {
 // Stack — category rows with wrapped chips
 // ---------------------------------------------------------------------------
 function stackBoard(t) {
-  const W = 1200, labelCol = 200, chipH = 34, padX = 14, gapX = 10, gapY = 10, font = 15, padY = 20;
+  const W = 1000, labelCol = 178, chipH = 34, padX = 13, gapX = 9, gapY = 9, font = 15, padY = 18;
   const parts = [];
   let y = 0;
   stack.forEach((group, gi) => {

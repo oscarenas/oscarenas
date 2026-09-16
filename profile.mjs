@@ -29,7 +29,7 @@ export const stack = [
   {
     label: 'Backend & data',
     color: '#22c55e',
-    items: ['Node.js', 'Express', 'Fastify', 'GraphQL', 'REST APIs', 'WebSockets', 'PostgreSQL', 'MongoDB', 'Supabase'],
+    items: ['Node.js', 'Express', 'Fastify', 'GraphQL', 'WebSockets', 'PostgreSQL', 'MongoDB', 'Supabase'],
   },
   {
     label: 'AI / LLM',
