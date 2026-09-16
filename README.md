@@ -49,7 +49,7 @@ I build web products that hold up in production — and, lately, the AI layer on
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend & data: Node.js, Express, Fastify, GraphQL, REST APIs, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, prompt engineering, structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud & delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality & craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, design systems, micro‑frontends, PWA, OWASP Top 10. Design & hardware: Figma, design tokens, UI/UX foundations, C/C++, embedded / IoT, MQTT." src="assets/stack-light.svg" width="100%">
+  <img alt="Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend & data: Node.js, Express, Fastify, GraphQL, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, prompt engineering, structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud & delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality & craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, design systems, micro‑frontends, PWA, OWASP Top 10. Design & hardware: Figma, design tokens, UI/UX foundations, C/C++, embedded / IoT, MQTT." src="assets/stack-light.svg" width="100%">
 </picture>
 </p>
 
