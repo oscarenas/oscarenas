@@ -11,6 +11,7 @@
 </p>
 
 <p align="center">
+</br></br>
   <a href="https://resume-oscarenas.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-resume-dark.svg"><img alt="View resume" src="assets/btn-resume-light.svg" height="40"></picture></a>
   <a href="https://resume-oscarenas.web.app/cv/oscar-arenas-en.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-cv-dark.svg"><img alt="Download CV (PDF)" src="assets/btn-cv-light.svg" height="40"></picture></a>
   <a href="https://www.linkedin.com/in/oscarenas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
@@ -18,13 +19,14 @@
 </p>
 
 <p align="center"><sub>¿Prefieres español? La hoja de vida también está en <a href="https://resume-oscarenas.web.app/es">resume-oscarenas.web.app/es</a>.</sub></p>
-
+</br>
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <img alt="14+ years shipping web products for global brands · 90 product squads adopted my component libraries · 12 engineers mentored on TypeScript, accessibility and Core Web Vitals · 251 hours of certified learning in 2025 across 13 credentials" src="assets/stats-light.svg" width="100%">
 </picture>
 </p>
+</br>
 
 > [!TIP]
 > This profile has an agent‑ready twin. [resume‑oscarenas.web.app](https://resume-oscarenas.web.app/#agents) exposes **18 tools** to AI agents through WebMCP (`navigator.modelContext`) — a recruiter's agent can query the profile, filter experience by technology and book an intro call without scraping a single page.
