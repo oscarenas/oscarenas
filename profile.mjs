@@ -7,9 +7,12 @@ export const profile = {
   eyebrow: 'Senior Software Engineer',
   focus: 'Next.js · Node · TypeScript · AI/LLM',
   tagline: ['14+ years shipping web products for global brands —', 'now building AI‑augmented experiences.'],
+  // Line breaks for the stacked mobile hero (<= 600px viewports).
+  taglineMobile: ['14+ years shipping web products for', 'global brands — now building', 'AI‑augmented experiences.'],
   availability: 'Available for new opportunities',
   location: 'Bogotá, Colombia',
   remote: 'Open to remote · LATAM / US / EU',
+  remoteShort: 'Remote · LATAM / US / EU',
   site: 'resume-oscarenas.web.app',
 };
 

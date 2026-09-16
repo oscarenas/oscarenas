@@ -5,6 +5,8 @@
 
 <p align="center">
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <img alt="Oscar Arenas — Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM. 14+ years shipping web products for global brands — now building AI‑augmented experiences. Bogotá, Colombia · open to remote (LATAM · US · EU) · available for new opportunities." src="assets/hero-light.svg" width="100%">
 </picture>
