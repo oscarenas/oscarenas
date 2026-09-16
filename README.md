@@ -3,10 +3,12 @@
   Everything under ./assets is generated. Edit profile.mjs, then run:  node scripts/build.mjs
 -->
 
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <img alt="Oscar Arenas — Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM. 14+ years shipping web products for global brands — now building AI‑augmented experiences. Bogotá, Colombia · open to remote (LATAM · US · EU) · available for new opportunities." src="assets/hero-light.svg" width="100%">
 </picture>
+</p>
 
 <p align="center">
   <a href="https://resume-oscarenas.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-resume-dark.svg"><img alt="View resume" src="assets/btn-resume-light.svg" height="40"></picture></a>
@@ -17,10 +19,12 @@
 
 <p align="center"><sub>¿Prefieres español? La hoja de vida también está en <a href="https://resume-oscarenas.web.app/es">resume-oscarenas.web.app/es</a>.</sub></p>
 
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <img alt="14+ years shipping web products for global brands · 90 product squads adopted my component libraries · 12 engineers mentored on TypeScript, accessibility and Core Web Vitals · 251 hours of certified learning in 2025 across 13 credentials" src="assets/stats-light.svg" width="100%">
 </picture>
+</p>
 
 > [!TIP]
 > This profile has an agent‑ready twin. [resume‑oscarenas.web.app](https://resume-oscarenas.web.app/#agents) exposes **18 tools** to AI agents through WebMCP (`navigator.modelContext`) — a recruiter's agent can query the profile, filter experience by technology and book an intro call without scraping a single page.
@@ -42,10 +46,12 @@ I build web products that hold up in production — and, lately, the AI layer on
 
 ## 02 · Stack
 
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
   <img alt="Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend & data: Node.js, Express, Fastify, GraphQL, REST APIs, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, prompt engineering, structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud & delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality & craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, design systems, micro‑frontends, PWA, OWASP Top 10. Design & hardware: Figma, design tokens, UI/UX foundations, C/C++, embedded / IoT, MQTT." src="assets/stack-light.svg" width="100%">
 </picture>
+</p>
 
 <!--
   Hidden for now. To bring it back: remove this comment wrapper and renumber the sections below (03 → 04, …).
