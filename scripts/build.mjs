@@ -233,60 +233,68 @@ function hero(t) {
 }
 
 // ---------------------------------------------------------------------------
-// Hero (mobile, <= 600px viewports) — same ingredients, stacked
+// Hero (stacked) — mobile and tablet columns. Same ingredients, one column;
+// `s` scales type and spacing (1 = phone, ~1.2 = tablet).
 // ---------------------------------------------------------------------------
-function heroMobile(t) {
-  const W = 400, H = 536, R = 20, px = 28;
+function heroStacked(t, { W, s = 1 }) {
+  const R = 20, px = Math.round(28 * s);
   const parts = [];
-  parts.push(heroSurface(t, W, H, R));
+  const r = (v) => Math.round(v * s * 10) / 10;
 
   // Top row: monogram + availability pill
-  parts.push(`<rect x="${px}" y="${px}" width="48" height="48" rx="12" fill="url(#mono)"/>`);
-  parts.push(text(px + 24, px + 32, profile.monogram, { size: 21, weight: 800, fill: '#ffffff', anchor: 'middle', tracking: -0.4 }));
-  const pillFont = 12;
+  const mono = r(48);
+  parts.push(`<rect x="${px}" y="${px}" width="${mono}" height="${mono}" rx="${r(12)}" fill="url(#mono)"/>`);
+  parts.push(text(px + mono / 2, px + r(32), profile.monogram, { size: r(21), weight: 800, fill: '#ffffff', anchor: 'middle', tracking: -0.4 }));
+  const pillFont = r(12);
   const pillTextW = measure(profile.availability, pillFont, { tracking: 0.1 });
-  const pillW = 12 + 8 + 8 + pillTextW + 14;
-  const pillH = 30, pillX = W - px - pillW, pillY = px + 9;
-  parts.push(`<rect x="${pillX}" y="${pillY}" width="${pillW}" height="${pillH}" rx="15" fill="${t.pillBg}" stroke="${t.pillBorder}"/>`);
-  parts.push(pulseDot(pillX + 12 + 4, pillY + pillH / 2, 3.5));
-  parts.push(text(pillX + 12 + 8 + 8, pillY + 19.5, profile.availability, { size: pillFont, weight: 600, fill: t.pillText, tracking: 0.1, fit: pillTextW }));
+  const pillW = r(12) + r(8) + r(8) + pillTextW + r(14);
+  const pillH = r(30), pillX = W - px - pillW, pillY = px + r(9);
+  parts.push(`<rect x="${pillX}" y="${pillY}" width="${pillW}" height="${pillH}" rx="${pillH / 2}" fill="${t.pillBg}" stroke="${t.pillBorder}"/>`);
+  parts.push(pulseDot(pillX + r(12) + r(4), pillY + pillH / 2, r(3.5)));
+  parts.push(text(pillX + r(12) + r(8) + r(8), pillY + r(19.5), profile.availability, { size: pillFont, weight: 600, fill: t.pillText, tracking: 0.1, fit: pillTextW }));
 
   // Type stack
-  parts.push(text(px, 114, profile.eyebrow.toUpperCase(), { size: 11, weight: 600, fill: t.text3, family: MONO, tracking: 1.8 }));
-  parts.push(text(px - 2, 158, profile.name, { size: 44, weight: 800, fill: t.text, tracking: -1.5 }));
-  parts.push(text(px, 188, profile.focus, { size: 16, weight: 600, fill: t.brand, tracking: -0.1 }));
-  profile.taglineMobile.forEach((l, i) => parts.push(text(px, 218 + i * 21, l, { size: 14.5, weight: 400, fill: t.text2 })));
+  parts.push(text(px, r(114), profile.eyebrow.toUpperCase(), { size: r(11), weight: 600, fill: t.text3, family: MONO, tracking: r(1.8) }));
+  parts.push(text(px - 2, r(158), profile.name, { size: r(44), weight: 800, fill: t.text, tracking: r(-1.5) }));
+  parts.push(text(px, r(188), profile.focus, { size: r(16), weight: 600, fill: t.brand, tracking: -0.1 }));
+  profile.taglineMobile.forEach((l, i) => parts.push(text(px, r(218 + i * 21), l, { size: r(14.5), weight: 400, fill: t.text2 })));
 
   // Meta line
-  parts.push(`<path transform="translate(${px},284) scale(0.86)" d="M7 0a5 5 0 0 0-5 5c0 3.6 5 9 5 9s5-5.4 5-9a5 5 0 0 0-5-5zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="${t.muted}"/>`);
-  parts.push(text(px + 18, 295, `${profile.location}  ·  ${profile.remoteShort}`, { size: 12.5, weight: 500, fill: t.text3, tracking: 0.1 }));
+  parts.push(`<path transform="translate(${px},${r(284)}) scale(${r(0.86)})" d="M7 0a5 5 0 0 0-5 5c0 3.6 5 9 5 9s5-5.4 5-9a5 5 0 0 0-5-5zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="${t.muted}"/>`);
+  parts.push(text(px + r(18), r(295), `${profile.location}  ·  ${profile.remoteShort}`, { size: r(12.5), weight: 500, fill: t.text3, tracking: 0.1 }));
 
   // Console, full width
-  parts.push(...consoleCard({ x: px, y: 318, w: W - px * 2, pad: 16, mono: 11.5, lh: 19 }).parts);
+  const con = consoleCard({ x: px, y: r(318), w: W - px * 2, pad: r(16), mono: r(11.5), lh: r(19) });
+  parts.push(...con.parts);
 
-  return svg({ w: W, h: H, title: heroTitle(), body: parts.join('\n'), defs: heroDefs(t, W, H, R), style: HERO_STYLE });
+  const H = Math.round(r(318) + con.h + px);
+  return svg({ w: W, h: H, title: heroTitle(), body: heroSurface(t, W, H, R) + '\n' + parts.join('\n'), defs: heroDefs(t, W, H, R), style: HERO_STYLE });
 }
 
 // ---------------------------------------------------------------------------
 // Stats strip
 // ---------------------------------------------------------------------------
-function statsStrip(t) {
-  const W = 1000, H = 168, gap = 20, n = stats.length, pad = 22;
-  const cw = (W - gap * (n - 1)) / n;
+function statsStrip(t, { W = 1000, cols = 4, gap = 20, short = false } = {}) {
+  const n = stats.length, pad = short ? 18 : 22, rowH = short ? 150 : 168, rows = Math.ceil(n / cols);
+  const cw = (W - gap * (cols - 1)) / cols;
   const parts = [];
   stats.forEach((s, i) => {
-    const x = i * (cw + gap);
-    parts.push(`<rect x="${x + 0.5}" y="0.5" width="${cw - 1}" height="${H - 1}" rx="16" fill="${t.card}" stroke="${t.border}"/>`);
-    parts.push(text(x + pad, 38, String(i + 1).padStart(2, '0'), { size: 12, weight: 600, fill: t.brand, family: MONO, tracking: 2 }));
-    parts.push(`<line x1="${x + pad + 28}" y1="33.5" x2="${x + cw - pad}" y2="33.5" stroke="${t.hairline}"/>`);
-    parts.push(text(x + pad - 2, 98, s.value, { size: 42, weight: 800, fill: t.text, tracking: -1.5 }));
+    const x = (i % cols) * (cw + gap);
+    const y = Math.floor(i / cols) * (rowH + gap);
+    parts.push(`<rect x="${x + 0.5}" y="${y + 0.5}" width="${cw - 1}" height="${rowH - 1}" rx="16" fill="${t.card}" stroke="${t.border}"/>`);
+    const ey = short ? 34 : 38;
+    parts.push(text(x + pad, y + ey, String(i + 1).padStart(2, '0'), { size: 12, weight: 600, fill: t.brand, family: MONO, tracking: 2 }));
+    parts.push(`<line x1="${x + pad + 28}" y1="${y + ey - 4.5}" x2="${x + cw - pad}" y2="${y + ey - 4.5}" stroke="${t.hairline}"/>`);
+    parts.push(text(x + pad - 2, y + (short ? 88 : 98), s.value, { size: short ? 38 : 42, weight: 800, fill: t.text, tracking: -1.5 }));
     const inner = cw - pad * 2;
-    s.lines.forEach((l, j) => {
-      let size = 14.5;
-      while (measure(l, size) > inner && size > 12) size -= 0.5; // auto-fit long labels
-      parts.push(text(x + pad, 126 + j * 19, l, { size, weight: 500, fill: t.text2 }));
+    const lines = (short && s.linesShort) || s.lines;
+    lines.forEach((l, j) => {
+      let size = short ? 13.5 : 14.5;
+      while (measure(l, size) > inner && size > 11.5) size -= 0.5; // auto-fit long labels
+      parts.push(text(x + pad, y + (short ? 114 : 126) + j * (short ? 18 : 19), l, { size, weight: 500, fill: t.text2 }));
     });
   });
+  const H = rows * rowH + (rows - 1) * gap;
   const title = stats.map((s) => `${s.value} ${s.lines.join(' ')}`).join(' · ');
   return svg({ w: W, h: H, title, body: parts.join('\n') });
 }
@@ -294,16 +302,19 @@ function statsStrip(t) {
 // ---------------------------------------------------------------------------
 // Stack — category rows with wrapped chips
 // ---------------------------------------------------------------------------
-function stackBoard(t) {
-  const W = 1000, labelCol = 178, chipH = 34, padX = 13, gapX = 9, gapY = 9, font = 15, padY = 18;
+// `labelCol` = width of the side label column; 0 puts the label above the chips.
+function stackBoard(t, { W = 1000, labelCol = 178, font = 15 } = {}) {
+  const chipH = Math.round(font * 2.27), padX = Math.round(font * 0.87), gapX = 9, gapY = 9, padY = 18;
   const parts = [];
   let y = 0;
   stack.forEach((group, gi) => {
     if (gi > 0) parts.push(`<line x1="0" y1="${y + 0.5}" x2="${W}" y2="${y + 0.5}" stroke="${t.hairline}"/>`);
     y += padY;
-    // label
-    parts.push(`<circle cx="5" cy="${y + chipH / 2}" r="4" fill="${group.color}"/>`);
-    parts.push(text(18, y + chipH / 2 + 4.5, group.label.toUpperCase(), { size: 12, weight: 600, fill: t.text3, family: MONO, tracking: 2 }));
+    // label — beside the first chip row, or on its own line above
+    const labelY = labelCol ? y + chipH / 2 : y + 8;
+    parts.push(`<circle cx="5" cy="${labelY}" r="4" fill="${group.color}"/>`);
+    parts.push(text(18, labelY + 4.5, group.label.toUpperCase(), { size: 12, weight: 600, fill: t.text3, family: MONO, tracking: 2 }));
+    if (!labelCol) y += 26;
     // chips
     let cx = labelCol, cy = y;
     for (const item of group.items) {
@@ -311,7 +322,7 @@ function stackBoard(t) {
       const w = Math.round(padX * 2 + tw);
       if (cx + w > W) { cx = labelCol; cy += chipH + gapY; }
       parts.push(`<rect x="${cx + 0.5}" y="${cy + 0.5}" width="${w - 1}" height="${chipH - 1}" rx="9" fill="${t.chipBg}" stroke="${t.chipBorder}"/>`);
-      parts.push(text(cx + padX, cy + 22, item, { size: font, weight: 500, fill: t.chipText, fit: tw }));
+      parts.push(text(cx + padX, cy + Math.round(chipH / 2 + font * 0.33), item, { size: font, weight: 500, fill: t.chipText, fit: tw }));
       cx += w + gapX;
     }
     y = cy + chipH + padY;
@@ -352,10 +363,17 @@ mkdirSync(OUT, { recursive: true });
 const written = [];
 for (const [name, t] of Object.entries(themes)) {
   const files = {
+    // Three tiers keyed to the README column width GitHub gives us:
+    // desktop ~700-832px, tablet ~500-730px, mobile ~335-500px.
     [`hero-${name}.svg`]: hero(t),
-    [`hero-mobile-${name}.svg`]: heroMobile(t),
+    [`hero-tablet-${name}.svg`]: heroStacked(t, { W: 640, s: 1.2 }),
+    [`hero-mobile-${name}.svg`]: heroStacked(t, { W: 400 }),
     [`stats-${name}.svg`]: statsStrip(t),
+    [`stats-tablet-${name}.svg`]: statsStrip(t, { W: 640, cols: 2 }),
+    [`stats-mobile-${name}.svg`]: statsStrip(t, { W: 400, cols: 2, gap: 16, short: true }),
     [`stack-${name}.svg`]: stackBoard(t),
+    [`stack-tablet-${name}.svg`]: stackBoard(t, { W: 640, labelCol: 0 }),
+    [`stack-mobile-${name}.svg`]: stackBoard(t, { W: 400, labelCol: 0, font: 14 }),
   };
   for (const b of buttons) files[`btn-${b.id}-${name}.svg`] = button(t, b);
   for (const [file, content] of Object.entries(files)) {

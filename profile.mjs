@@ -16,11 +16,12 @@ export const profile = {
   site: 'resume-oscarenas.web.app',
 };
 
+// `linesShort` is used on the narrow (mobile) cards.
 export const stats = [
-  { value: '14+', lines: ['years shipping web', 'products for global brands'] },
-  { value: '90', lines: ['product squads adopted', 'my component libraries'] },
-  { value: '12', lines: ['engineers mentored on TS,', 'a11y & Core Web Vitals'] },
-  { value: '251h', lines: ['certified learning in 2025', 'across 13 credentials'] },
+  { value: '14+', lines: ['years shipping web', 'products for global brands'], linesShort: ['years shipping', 'web products'] },
+  { value: '90', lines: ['product squads adopted', 'my component libraries'], linesShort: ['product squads on', 'my component libraries'] },
+  { value: '12', lines: ['engineers mentored on TS,', 'a11y & Core Web Vitals'], linesShort: ['engineers mentored', 'on TS, a11y & CWV'] },
+  { value: '251h', lines: ['certified learning in 2025', 'across 13 credentials'], linesShort: ['certified learning', 'in 2025 · 13 credentials'] },
 ];
 
 export const stack = [

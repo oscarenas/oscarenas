@@ -5,8 +5,10 @@
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px), (prefers-color-scheme: dark) and (min-width: 768px) and (max-width: 868px)" srcset="assets/hero-mobile-dark.svg">
+  <source media="(max-width: 600px), (min-width: 768px) and (max-width: 868px)" srcset="assets/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark) and (min-width: 601px) and (max-width: 767px), (prefers-color-scheme: dark) and (min-width: 869px) and (max-width: 1099px)" srcset="assets/hero-tablet-dark.svg">
+  <source media="(min-width: 601px) and (max-width: 767px), (min-width: 869px) and (max-width: 1099px)" srcset="assets/hero-tablet-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <img alt="Oscar Arenas — Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM. 14+ years shipping web products for global brands — now building AI‑augmented experiences. Bogotá, Colombia · open to remote (LATAM · US · EU) · available for new opportunities." src="assets/hero-light.svg" width="100%">
 </picture>
@@ -24,6 +26,10 @@
 <br>
 <p align="center">
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px), (prefers-color-scheme: dark) and (min-width: 768px) and (max-width: 868px)" srcset="assets/stats-mobile-dark.svg">
+  <source media="(max-width: 600px), (min-width: 768px) and (max-width: 868px)" srcset="assets/stats-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark) and (min-width: 601px) and (max-width: 767px), (prefers-color-scheme: dark) and (min-width: 869px) and (max-width: 1099px)" srcset="assets/stats-tablet-dark.svg">
+  <source media="(min-width: 601px) and (max-width: 767px), (min-width: 869px) and (max-width: 1099px)" srcset="assets/stats-tablet-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <img alt="14+ years shipping web products for global brands · 90 product squads adopted my component libraries · 12 engineers mentored on TypeScript, accessibility and Core Web Vitals · 251 hours of certified learning in 2025 across 13 credentials" src="assets/stats-light.svg" width="100%">
 </picture>
@@ -52,6 +58,10 @@ I build web products that hold up in production — and, lately, the AI layer on
 
 <p align="center">
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px), (prefers-color-scheme: dark) and (min-width: 768px) and (max-width: 868px)" srcset="assets/stack-mobile-dark.svg">
+  <source media="(max-width: 600px), (min-width: 768px) and (max-width: 868px)" srcset="assets/stack-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark) and (min-width: 601px) and (max-width: 767px), (prefers-color-scheme: dark) and (min-width: 869px) and (max-width: 1099px)" srcset="assets/stack-tablet-dark.svg">
+  <source media="(min-width: 601px) and (max-width: 767px), (min-width: 869px) and (max-width: 1099px)" srcset="assets/stack-tablet-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
   <img alt="Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend & data: Node.js, Express, Fastify, GraphQL, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, prompt engineering, structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud & delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality & craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, design systems, micro‑frontends, PWA, OWASP Top 10. Design & hardware: Figma, design tokens, UI/UX foundations, C/C++, embedded / IoT, MQTT." src="assets/stack-light.svg" width="100%">
 </picture>

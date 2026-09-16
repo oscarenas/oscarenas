@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="643" viewBox="0 0 640 643" role="img" aria-label="Oscar Arenas — Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM. 14+ years shipping web products for global brands — now building AI‑augmented experiences.">
+<title>Oscar Arenas — Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM. 14+ years shipping web products for global brands — now building AI‑augmented experiences.</title>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="rgba(14,15,20,0.06)" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55"><stop offset="0" stop-color="#3b63ff" stop-opacity="0.16"/><stop offset="1" stop-color="#3b63ff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="mono" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b63ff"/><stop offset="1" stop-color="#1d2cb2"/></linearGradient>
+  <clipPath id="clip"><rect width="640" height="643" rx="20"/></clipPath><style>
+  .caret { animation: blink 1.1s steps(1) infinite }
+  @keyframes blink { 50% { opacity: 0 } }
+  @media (prefers-reduced-motion: reduce) { .caret { animation: none } }</style></defs>
+<g clip-path="url(#clip)">
+  <rect width="640" height="643" fill="#fbfbfa"/>
+  <rect width="640" height="643" fill="url(#grid)"/>
+  <rect width="640" height="643" fill="url(#glow)"/>
+</g>
+<rect x="0.5" y="0.5" width="639" height="642" rx="20" fill="none" stroke="#d9dade"/>
+<rect x="34" y="34" width="57.6" height="57.6" rx="14.4" fill="url(#mono)"/>
+<text x="62.8" y="72.4" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="25.2" font-weight="800" fill="#ffffff" letter-spacing="-0.4" text-anchor="middle">OA</text>
+<rect x="346" y="44.8" width="260" height="36" rx="18" fill="#f0fdf4" stroke="#bbf7d0"/>
+<circle cx="365.2" cy="62.8" r="4.2" fill="#22c55e"/>
+<circle cx="365.2" cy="62.8" r="4.2" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.6">
+  <animate attributeName="r" values="4.2;12.600000000000001" dur="2.2s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.6;0" dur="2.2s" repeatCount="indefinite"/>
+</circle>
+<text x="379.6" y="68.19999999999999" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14.4" font-weight="600" fill="#166534" letter-spacing="0.1" textLength="209.6" lengthAdjust="spacingAndGlyphs">Available for new opportunities</text>
+<text x="34" y="136.8" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.2" font-weight="600" fill="#70717e" letter-spacing="2.2">SENIOR SOFTWARE ENGINEER</text>
+<text x="32" y="189.6" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52.8" font-weight="800" fill="#0e0f14" letter-spacing="-1.8">Oscar Arenas</text>
+<text x="34" y="225.6" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19.2" font-weight="600" fill="#2542f5" letter-spacing="-0.1">Next.js · Node · TypeScript · AI/LLM</text>
+<text x="34" y="261.6" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17.4" font-weight="400" fill="#474853">14+ years shipping web products for</text>
+<text x="34" y="286.8" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17.4" font-weight="400" fill="#474853">global brands — now building</text>
+<text x="34" y="312" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17.4" font-weight="400" fill="#474853">AI‑augmented experiences.</text>
+<path transform="translate(34,340.8) scale(1)" d="M7 0a5 5 0 0 0-5 5c0 3.6 5 9 5 9s5-5.4 5-9a5 5 0 0 0-5-5zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="#8f909c"/>
+<text x="55.6" y="354" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#70717e" letter-spacing="0.1">Bogotá, Colombia  ·  Remote · LATAM / US / EU</text>
+<rect x="34" y="381.6" width="572" height="227.2" rx="16" fill="#0b0c10" stroke="rgba(255,255,255,0.10)"/>
+<circle cx="54" cy="400.6" r="5" fill="#ff5f57"/><circle cx="72" cy="400.6" r="5" fill="#febc2e"/><circle cx="90" cy="400.6" r="5" fill="#28c840"/>
+<text x="112" y="404.6" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="500" fill="#70717e">resume-oscarenas.web.app · agent-ready</text>
+<line x1="34" y1="419.6" x2="606" y2="419.6" stroke="rgba(255,255,255,0.10)"/>
+<text x="53.2" y="442.8" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.8" xml:space="preserve"><tspan fill="#70717e">// navigator.modelContext · 18 tools</tspan></text>
+<text x="53.2" y="465.6" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.8" xml:space="preserve"><tspan fill="#93b3ff">await </tspan><tspan fill="#eeeef1">oscarResume</tspan><tspan fill="#8f909c">.call(</tspan><tspan fill="#86efac">'get_profile'</tspan><tspan fill="#8f909c">)</tspan></text>
+<text x="53.2" y="488.40000000000003" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.8" xml:space="preserve"><tspan fill="#8f909c">{</tspan></text>
+<text x="53.2" y="511.20000000000005" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.8" xml:space="preserve"><tspan fill="#b7b8c0">  name:  </tspan><tspan fill="#86efac">&quot;Oscar Arenas&quot;</tspan><tspan fill="#8f909c">,</tspan></text>
+<text x="53.2" y="534" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.8" xml:space="preserve"><tspan fill="#b7b8c0">  years: </tspan><tspan fill="#fbbf24">14</tspan><tspan fill="#8f909c">,</tspan></text>
+<text x="53.2" y="556.8" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.8" xml:space="preserve"><tspan fill="#b7b8c0">  stack: </tspan><tspan fill="#8f909c">[</tspan><tspan fill="#86efac">&quot;Next.js&quot;</tspan><tspan fill="#8f909c">, </tspan><tspan fill="#86efac">&quot;Node&quot;</tspan><tspan fill="#8f909c">, </tspan><tspan fill="#86efac">&quot;TS&quot;</tspan><tspan fill="#8f909c">, </tspan><tspan fill="#86efac">&quot;AI&quot;</tspan><tspan fill="#8f909c">]</tspan></text>
+<text x="53.2" y="579.6" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.8" xml:space="preserve"><tspan fill="#8f909c">}</tspan></text>
+<rect class="caret" x="65.48" y="566.6" width="8" height="17" rx="1" fill="#93b3ff"/>
+</svg>
