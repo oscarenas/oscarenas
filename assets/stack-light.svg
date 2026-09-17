@@ -1,117 +1,183 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="506" viewBox="0 0 1000 506" role="img" aria-label="Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend &amp; data: Node.js, Express, Fastify, GraphQL, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, Prompt engineering, Structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud &amp; delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality &amp; craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, Design systems, Micro‑frontends, PWA, OWASP Top 10. Design &amp; hardware: Figma, Design tokens, UI/UX foundations, C / C++, Embedded / IoT, MQTT">
-<title>Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend &amp; data: Node.js, Express, Fastify, GraphQL, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, Prompt engineering, Structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud &amp; delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality &amp; craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, Design systems, Micro‑frontends, PWA, OWASP Top 10. Design &amp; hardware: Figma, Design tokens, UI/UX foundations, C / C++, Embedded / IoT, MQTT</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="849" viewBox="0 0 1000 849" role="img" aria-label="Core stack: React (10+ yrs), TypeScript (7+ yrs), Node.js (7+ yrs), Next.js (5+ yrs), Design systems (5+ yrs), Accessibility (5+ yrs), Web performance (2+ yrs), LLM integration (since 2024). Frontend: React, Next.js, Astro, Vue, Angular, React Native, TypeScript, JavaScript (ES202x), HTML5 &amp; CSS3, Tailwind CSS, SCSS, CSS‑in‑JS. State &amp; data: Redux, Zustand, Context API, MobX, Vuex, GraphQL (Apollo), REST APIs. Backend &amp; data: Node.js, Express, WebSockets, PostgreSQL, MySQL, MongoDB, Supabase. AI &amp; LLM: OpenAI &amp; Anthropic APIs, Prompt engineering, Structured outputs, LLM product flows, WebMCP / MCP, AI‑assisted coding, Midjourney, DALL·E. Quality &amp; craft: Jest, React Testing Library, Cypress, Playwright, ESLint / Prettier, WCAG 2.2, Core Web Vitals, Micro‑frontends, PWA &amp; Service Workers, OWASP Top 10. Platform &amp; DevOps: Vercel, Firebase, AWS, Google Cloud, Azure, Docker, GitHub Actions, CI/CD, Linux. Design &amp; tooling: Figma, Design tokens, Storybook, Prototyping, Jira. Earlier &amp; adjacent: jQuery, Polymer, PHP, C / C++, Embedded systems &amp; IoT, MQTT">
+<title>Core stack: React (10+ yrs), TypeScript (7+ yrs), Node.js (7+ yrs), Next.js (5+ yrs), Design systems (5+ yrs), Accessibility (5+ yrs), Web performance (2+ yrs), LLM integration (since 2024). Frontend: React, Next.js, Astro, Vue, Angular, React Native, TypeScript, JavaScript (ES202x), HTML5 &amp; CSS3, Tailwind CSS, SCSS, CSS‑in‑JS. State &amp; data: Redux, Zustand, Context API, MobX, Vuex, GraphQL (Apollo), REST APIs. Backend &amp; data: Node.js, Express, WebSockets, PostgreSQL, MySQL, MongoDB, Supabase. AI &amp; LLM: OpenAI &amp; Anthropic APIs, Prompt engineering, Structured outputs, LLM product flows, WebMCP / MCP, AI‑assisted coding, Midjourney, DALL·E. Quality &amp; craft: Jest, React Testing Library, Cypress, Playwright, ESLint / Prettier, WCAG 2.2, Core Web Vitals, Micro‑frontends, PWA &amp; Service Workers, OWASP Top 10. Platform &amp; DevOps: Vercel, Firebase, AWS, Google Cloud, Azure, Docker, GitHub Actions, CI/CD, Linux. Design &amp; tooling: Figma, Design tokens, Storybook, Prototyping, Jira. Earlier &amp; adjacent: jQuery, Polymer, PHP, C / C++, Embedded systems &amp; IoT, MQTT</title>
 <defs></defs>
-<circle cx="5" cy="35" r="4" fill="#3b63ff"/>
-<text x="18" y="39.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="2">FRONTEND</text>
-<rect x="178.5" y="18.5" width="73" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="47.7" lengthAdjust="spacingAndGlyphs">Next.js</text>
-<rect x="261.5" y="18.5" width="64" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="274" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="39" lengthAdjust="spacingAndGlyphs">React</text>
-<rect x="335.5" y="18.5" width="99" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="348" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="74.4" lengthAdjust="spacingAndGlyphs">TypeScript</text>
-<rect x="444.5" y="18.5" width="62" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="457" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="36.6" lengthAdjust="spacingAndGlyphs">Astro</text>
-<rect x="516.5" y="18.5" width="52" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="529" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="27.3" lengthAdjust="spacingAndGlyphs">Vue</text>
-<rect x="578.5" y="18.5" width="79" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="591" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="53.6" lengthAdjust="spacingAndGlyphs">Angular</text>
-<rect x="667.5" y="18.5" width="116" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="680" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="91.1" lengthAdjust="spacingAndGlyphs">Tailwind CSS</text>
-<rect x="793.5" y="18.5" width="113" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="806" y="40" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="87.5" lengthAdjust="spacingAndGlyphs">React Native</text>
-<line x1="0" y1="70.5" x2="1000" y2="70.5" stroke="#eeeef1"/>
-<circle cx="5" cy="105" r="4" fill="#22c55e"/>
-<text x="18" y="109.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="2">BACKEND &amp; DATA</text>
-<rect x="178.5" y="88.5" width="78" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="52.5" lengthAdjust="spacingAndGlyphs">Node.js</text>
-<rect x="266.5" y="88.5" width="79" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="279" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="53.7" lengthAdjust="spacingAndGlyphs">Express</text>
-<rect x="355.5" y="88.5" width="71" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="368" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="45.6" lengthAdjust="spacingAndGlyphs">Fastify</text>
-<rect x="436.5" y="88.5" width="87" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="449" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="61.8" lengthAdjust="spacingAndGlyphs">GraphQL</text>
-<rect x="533.5" y="88.5" width="112" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="546" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="86.6" lengthAdjust="spacingAndGlyphs">WebSockets</text>
-<rect x="655.5" y="88.5" width="107" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="668" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="81.6" lengthAdjust="spacingAndGlyphs">PostgreSQL</text>
-<rect x="772.5" y="88.5" width="94" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="785" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="68.7" lengthAdjust="spacingAndGlyphs">MongoDB</text>
-<rect x="876.5" y="88.5" width="93" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="889" y="110" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="67.8" lengthAdjust="spacingAndGlyphs">Supabase</text>
-<line x1="0" y1="140.5" x2="1000" y2="140.5" stroke="#eeeef1"/>
-<circle cx="5" cy="175" r="4" fill="#a855f7"/>
-<text x="18" y="179.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="2">AI / LLM</text>
-<rect x="178.5" y="158.5" width="105" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="180" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="80.1" lengthAdjust="spacingAndGlyphs">OpenAI API</text>
-<rect x="293.5" y="158.5" width="120" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="306" y="180" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="95.3" lengthAdjust="spacingAndGlyphs">Anthropic API</text>
-<rect x="423.5" y="158.5" width="74" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="436" y="180" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="48.5" lengthAdjust="spacingAndGlyphs">Claude</text>
-<rect x="507.5" y="158.5" width="162" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="520" y="180" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="136.5" lengthAdjust="spacingAndGlyphs">Prompt engineering</text>
-<rect x="679.5" y="158.5" width="155" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="692" y="180" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="129.6" lengthAdjust="spacingAndGlyphs">Structured outputs</text>
-<rect x="844.5" y="158.5" width="153" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="857" y="180" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="128" lengthAdjust="spacingAndGlyphs">LLM product flows</text>
-<rect x="178.5" y="201.5" width="138" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="223" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="113.1" lengthAdjust="spacingAndGlyphs">MCP / WebMCP</text>
-<rect x="326.5" y="201.5" width="151" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="339" y="223" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="126.2" lengthAdjust="spacingAndGlyphs">AI‑assisted coding</text>
-<line x1="0" y1="253.5" x2="1000" y2="253.5" stroke="#eeeef1"/>
-<circle cx="5" cy="288" r="4" fill="#f59e0b"/>
-<text x="18" y="292.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="2">CLOUD &amp; DELIVERY</text>
-<rect x="178.5" y="271.5" width="59" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="34.2" lengthAdjust="spacingAndGlyphs">AWS</text>
-<rect x="247.5" y="271.5" width="119" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="260" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="94.2" lengthAdjust="spacingAndGlyphs">Google Cloud</text>
-<rect x="376.5" y="271.5" width="65" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="389" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="40.2" lengthAdjust="spacingAndGlyphs">Azure</text>
-<rect x="451.5" y="271.5" width="84" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="464" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="58.7" lengthAdjust="spacingAndGlyphs">Firebase</text>
-<rect x="545.5" y="271.5" width="69" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="558" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="44" lengthAdjust="spacingAndGlyphs">Vercel</text>
-<rect x="624.5" y="271.5" width="74" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="637" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="49.1" lengthAdjust="spacingAndGlyphs">Docker</text>
-<rect x="708.5" y="271.5" width="129" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="721" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="104.4" lengthAdjust="spacingAndGlyphs">GitHub Actions</text>
-<rect x="847.5" y="271.5" width="67" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="860" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="42" lengthAdjust="spacingAndGlyphs">CI/CD</text>
-<line x1="0" y1="323.5" x2="1000" y2="323.5" stroke="#eeeef1"/>
-<circle cx="5" cy="358" r="4" fill="#f43f5e"/>
-<text x="18" y="362.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="2">QUALITY &amp; CRAFT</text>
-<rect x="178.5" y="341.5" width="53" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="363" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="28.2" lengthAdjust="spacingAndGlyphs">Jest</text>
-<rect x="241.5" y="341.5" width="127" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="254" y="363" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="102.2" lengthAdjust="spacingAndGlyphs">Testing Library</text>
-<rect x="378.5" y="341.5" width="81" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="391" y="363" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="55.7" lengthAdjust="spacingAndGlyphs">Cypress</text>
-<rect x="469.5" y="341.5" width="98" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="482" y="363" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="72.8" lengthAdjust="spacingAndGlyphs">Playwright</text>
-<rect x="577.5" y="341.5" width="97" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="590" y="363" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="72.2" lengthAdjust="spacingAndGlyphs">WCAG 2.2</text>
-<rect x="684.5" y="341.5" width="137" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="697" y="363" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="111.6" lengthAdjust="spacingAndGlyphs">Core Web Vitals</text>
-<rect x="831.5" y="341.5" width="133" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="844" y="363" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="108" lengthAdjust="spacingAndGlyphs">Design systems</text>
-<rect x="178.5" y="384.5" width="135" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="406" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="110.4" lengthAdjust="spacingAndGlyphs">Micro‑frontends</text>
-<rect x="323.5" y="384.5" width="59" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="336" y="406" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="34.2" lengthAdjust="spacingAndGlyphs">PWA</text>
-<rect x="392.5" y="384.5" width="132" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="405" y="406" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="107.4" lengthAdjust="spacingAndGlyphs">OWASP Top 10</text>
-<line x1="0" y1="436.5" x2="1000" y2="436.5" stroke="#eeeef1"/>
-<circle cx="5" cy="471" r="4" fill="#06b6d4"/>
-<text x="18" y="475.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="2">DESIGN &amp; HARDWARE</text>
-<rect x="178.5" y="454.5" width="67" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="191" y="476" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="42.2" lengthAdjust="spacingAndGlyphs">Figma</text>
-<rect x="255.5" y="454.5" width="123" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="268" y="476" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="97.8" lengthAdjust="spacingAndGlyphs">Design tokens</text>
-<rect x="388.5" y="454.5" width="153" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="401" y="476" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="127.7" lengthAdjust="spacingAndGlyphs">UI/UX foundations</text>
-<rect x="551.5" y="454.5" width="78" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="564" y="476" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="52.8" lengthAdjust="spacingAndGlyphs">C / C++</text>
-<rect x="639.5" y="454.5" width="136" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="652" y="476" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="110.7" lengthAdjust="spacingAndGlyphs">Embedded / IoT</text>
-<rect x="785.5" y="454.5" width="68" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
-<text x="798" y="476" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="42.6" lengthAdjust="spacingAndGlyphs">MQTT</text>
+<rect x="0.5" y="0.5" width="999" height="848" rx="16" fill="#ffffff" stroke="#d9dade"/>
+<circle cx="29" cy="37" r="4" fill="#3b63ff"/>
+<text x="42" y="41.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">CORE STACK</text>
+<rect x="220.5" y="20.5" width="121" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="233" y="42" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="39" lengthAdjust="spacingAndGlyphs">React</text>
+<text x="280" y="41.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="49.1" lengthAdjust="spacingAndGlyphs">10+ yrs</text>
+<rect x="351.5" y="20.5" width="150" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="364" y="42" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="74.4" lengthAdjust="spacingAndGlyphs">TypeScript</text>
+<text x="446.4" y="41.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="42.1" lengthAdjust="spacingAndGlyphs">7+ yrs</text>
+<rect x="511.5" y="20.5" width="128" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="524" y="42" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="52.5" lengthAdjust="spacingAndGlyphs">Node.js</text>
+<text x="584.5" y="41.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="42.1" lengthAdjust="spacingAndGlyphs">7+ yrs</text>
+<rect x="649.5" y="20.5" width="123" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="662" y="42" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="47.7" lengthAdjust="spacingAndGlyphs">Next.js</text>
+<text x="717.7" y="41.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="42.1" lengthAdjust="spacingAndGlyphs">5+ yrs</text>
+<rect x="782.5" y="20.5" width="183" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="795" y="42" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="108" lengthAdjust="spacingAndGlyphs">Design systems</text>
+<text x="911" y="41.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="42.1" lengthAdjust="spacingAndGlyphs">5+ yrs</text>
+<rect x="220.5" y="63.5" width="161" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="233" y="85" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="85.7" lengthAdjust="spacingAndGlyphs">Accessibility</text>
+<text x="326.7" y="84.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="42.1" lengthAdjust="spacingAndGlyphs">5+ yrs</text>
+<rect x="391.5" y="63.5" width="200" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="404" y="85" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="124.5" lengthAdjust="spacingAndGlyphs">Web performance</text>
+<text x="536.5" y="84.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="42.1" lengthAdjust="spacingAndGlyphs">2+ yrs</text>
+<rect x="601.5" y="63.5" width="211" height="33" rx="9" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="614" y="85" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1e2f9e" textLength="107.7" lengthAdjust="spacingAndGlyphs">LLM integration</text>
+<text x="729.7" y="84.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" fill="#5b6bd6" textLength="70.2" lengthAdjust="spacingAndGlyphs">since 2024</text>
+<line x1="24" y1="115.5" x2="976" y2="115.5" stroke="#d9dade"/>
+<circle cx="29" cy="150" r="4" fill="#3b63ff"/>
+<text x="42" y="154.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">FRONTEND</text>
+<rect x="220.5" y="133.5" width="64" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="155" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="39" lengthAdjust="spacingAndGlyphs">React</text>
+<rect x="294.5" y="133.5" width="73" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="307" y="155" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="47.7" lengthAdjust="spacingAndGlyphs">Next.js</text>
+<rect x="377.5" y="133.5" width="62" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="390" y="155" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="36.6" lengthAdjust="spacingAndGlyphs">Astro</text>
+<rect x="449.5" y="133.5" width="52" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="462" y="155" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="27.3" lengthAdjust="spacingAndGlyphs">Vue</text>
+<rect x="511.5" y="133.5" width="79" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="524" y="155" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="53.6" lengthAdjust="spacingAndGlyphs">Angular</text>
+<rect x="600.5" y="133.5" width="113" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="613" y="155" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="87.5" lengthAdjust="spacingAndGlyphs">React Native</text>
+<rect x="723.5" y="133.5" width="99" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="736" y="155" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="74.4" lengthAdjust="spacingAndGlyphs">TypeScript</text>
+<rect x="220.5" y="176.5" width="163" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="198" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="137.9" lengthAdjust="spacingAndGlyphs">JavaScript (ES202x)</text>
+<rect x="393.5" y="176.5" width="131" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="406" y="198" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="106.2" lengthAdjust="spacingAndGlyphs">HTML5 &amp; CSS3</text>
+<rect x="534.5" y="176.5" width="116" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="547" y="198" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="91.1" lengthAdjust="spacingAndGlyphs">Tailwind CSS</text>
+<rect x="660.5" y="176.5" width="63" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="673" y="198" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="38.4" lengthAdjust="spacingAndGlyphs">SCSS</text>
+<rect x="733.5" y="176.5" width="93" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="746" y="198" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="68.3" lengthAdjust="spacingAndGlyphs">CSS‑in‑JS</text>
+<line x1="24" y1="228.5" x2="976" y2="228.5" stroke="#eeeef1"/>
+<circle cx="29" cy="263" r="4" fill="#0ea5e9"/>
+<text x="42" y="267.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">STATE &amp; DATA</text>
+<rect x="220.5" y="246.5" width="69" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="268" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="43.5" lengthAdjust="spacingAndGlyphs">Redux</text>
+<rect x="299.5" y="246.5" width="81" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="312" y="268" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="55.8" lengthAdjust="spacingAndGlyphs">Zustand</text>
+<rect x="390.5" y="246.5" width="107" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="403" y="268" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="82.2" lengthAdjust="spacingAndGlyphs">Context API</text>
+<rect x="507.5" y="246.5" width="66" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="520" y="268" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="41.1" lengthAdjust="spacingAndGlyphs">MobX</text>
+<rect x="583.5" y="246.5" width="60" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="596" y="268" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="35.1" lengthAdjust="spacingAndGlyphs">Vuex</text>
+<rect x="653.5" y="246.5" width="145" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="666" y="268" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="120" lengthAdjust="spacingAndGlyphs">GraphQL (Apollo)</text>
+<rect x="808.5" y="246.5" width="96" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="821" y="268" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="71.4" lengthAdjust="spacingAndGlyphs">REST APIs</text>
+<line x1="24" y1="298.5" x2="976" y2="298.5" stroke="#eeeef1"/>
+<circle cx="29" cy="333" r="4" fill="#22c55e"/>
+<text x="42" y="337.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">BACKEND &amp; DATA</text>
+<rect x="220.5" y="316.5" width="78" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="338" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="52.5" lengthAdjust="spacingAndGlyphs">Node.js</text>
+<rect x="308.5" y="316.5" width="79" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="321" y="338" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="53.7" lengthAdjust="spacingAndGlyphs">Express</text>
+<rect x="397.5" y="316.5" width="112" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="410" y="338" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="86.6" lengthAdjust="spacingAndGlyphs">WebSockets</text>
+<rect x="519.5" y="316.5" width="107" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="532" y="338" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="81.6" lengthAdjust="spacingAndGlyphs">PostgreSQL</text>
+<rect x="636.5" y="316.5" width="75" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="649" y="338" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="50.3" lengthAdjust="spacingAndGlyphs">MySQL</text>
+<rect x="721.5" y="316.5" width="94" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="734" y="338" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="68.7" lengthAdjust="spacingAndGlyphs">MongoDB</text>
+<rect x="825.5" y="316.5" width="93" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="838" y="338" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="67.8" lengthAdjust="spacingAndGlyphs">Supabase</text>
+<line x1="24" y1="368.5" x2="976" y2="368.5" stroke="#eeeef1"/>
+<circle cx="29" cy="403" r="4" fill="#a855f7"/>
+<text x="42" y="407.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">AI &amp; LLM</text>
+<rect x="220.5" y="386.5" width="198" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="408" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="173.2" lengthAdjust="spacingAndGlyphs">OpenAI &amp; Anthropic APIs</text>
+<rect x="428.5" y="386.5" width="162" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="441" y="408" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="136.5" lengthAdjust="spacingAndGlyphs">Prompt engineering</text>
+<rect x="600.5" y="386.5" width="155" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="613" y="408" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="129.6" lengthAdjust="spacingAndGlyphs">Structured outputs</text>
+<rect x="220.5" y="429.5" width="153" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="451" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="128" lengthAdjust="spacingAndGlyphs">LLM product flows</text>
+<rect x="383.5" y="429.5" width="138" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="396" y="451" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="113.1" lengthAdjust="spacingAndGlyphs">WebMCP / MCP</text>
+<rect x="531.5" y="429.5" width="151" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="544" y="451" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="126.2" lengthAdjust="spacingAndGlyphs">AI‑assisted coding</text>
+<rect x="692.5" y="429.5" width="103" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="705" y="451" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="78.2" lengthAdjust="spacingAndGlyphs">Midjourney</text>
+<rect x="805.5" y="429.5" width="75" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="818" y="451" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="49.8" lengthAdjust="spacingAndGlyphs">DALL·E</text>
+<line x1="24" y1="481.5" x2="976" y2="481.5" stroke="#eeeef1"/>
+<circle cx="29" cy="516" r="4" fill="#f43f5e"/>
+<text x="42" y="520.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">QUALITY &amp; CRAFT</text>
+<rect x="220.5" y="499.5" width="53" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="521" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="28.2" lengthAdjust="spacingAndGlyphs">Jest</text>
+<rect x="283.5" y="499.5" width="170" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="296" y="521" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="145.4" lengthAdjust="spacingAndGlyphs">React Testing Library</text>
+<rect x="463.5" y="499.5" width="81" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="476" y="521" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="55.7" lengthAdjust="spacingAndGlyphs">Cypress</text>
+<rect x="554.5" y="499.5" width="98" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="567" y="521" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="72.8" lengthAdjust="spacingAndGlyphs">Playwright</text>
+<rect x="662.5" y="499.5" width="134" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="675" y="521" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="108.6" lengthAdjust="spacingAndGlyphs">ESLint / Prettier</text>
+<rect x="806.5" y="499.5" width="97" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="819" y="521" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="72.2" lengthAdjust="spacingAndGlyphs">WCAG 2.2</text>
+<rect x="220.5" y="542.5" width="137" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="564" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="111.6" lengthAdjust="spacingAndGlyphs">Core Web Vitals</text>
+<rect x="367.5" y="542.5" width="135" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="380" y="564" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="110.4" lengthAdjust="spacingAndGlyphs">Micro‑frontends</text>
+<rect x="512.5" y="542.5" width="191" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="525" y="564" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="165.6" lengthAdjust="spacingAndGlyphs">PWA &amp; Service Workers</text>
+<rect x="713.5" y="542.5" width="132" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="726" y="564" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="107.4" lengthAdjust="spacingAndGlyphs">OWASP Top 10</text>
+<line x1="24" y1="594.5" x2="976" y2="594.5" stroke="#eeeef1"/>
+<circle cx="29" cy="629" r="4" fill="#f59e0b"/>
+<text x="42" y="633.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">PLATFORM &amp; DEVOPS</text>
+<rect x="220.5" y="612.5" width="69" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="634" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="44" lengthAdjust="spacingAndGlyphs">Vercel</text>
+<rect x="299.5" y="612.5" width="84" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="312" y="634" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="58.7" lengthAdjust="spacingAndGlyphs">Firebase</text>
+<rect x="393.5" y="612.5" width="59" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="406" y="634" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="34.2" lengthAdjust="spacingAndGlyphs">AWS</text>
+<rect x="462.5" y="612.5" width="119" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="475" y="634" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="94.2" lengthAdjust="spacingAndGlyphs">Google Cloud</text>
+<rect x="591.5" y="612.5" width="65" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="604" y="634" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="40.2" lengthAdjust="spacingAndGlyphs">Azure</text>
+<rect x="220.5" y="655.5" width="74" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="677" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="49.1" lengthAdjust="spacingAndGlyphs">Docker</text>
+<rect x="304.5" y="655.5" width="129" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="317" y="677" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="104.4" lengthAdjust="spacingAndGlyphs">GitHub Actions</text>
+<rect x="443.5" y="655.5" width="67" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="456" y="677" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="42" lengthAdjust="spacingAndGlyphs">CI/CD</text>
+<rect x="520.5" y="655.5" width="62" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="533" y="677" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="36.8" lengthAdjust="spacingAndGlyphs">Linux</text>
+<line x1="24" y1="707.5" x2="976" y2="707.5" stroke="#eeeef1"/>
+<circle cx="29" cy="742" r="4" fill="#06b6d4"/>
+<text x="42" y="746.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">DESIGN &amp; TOOLING</text>
+<rect x="220.5" y="725.5" width="67" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="233" y="747" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="42.2" lengthAdjust="spacingAndGlyphs">Figma</text>
+<rect x="297.5" y="725.5" width="123" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="310" y="747" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="97.8" lengthAdjust="spacingAndGlyphs">Design tokens</text>
+<rect x="430.5" y="725.5" width="96" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="443" y="747" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="70.8" lengthAdjust="spacingAndGlyphs">Storybook</text>
+<rect x="536.5" y="725.5" width="105" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="549" y="747" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="80.4" lengthAdjust="spacingAndGlyphs">Prototyping</text>
+<rect x="651.5" y="725.5" width="50" height="33" rx="9" fill="#ffffff" stroke="#d9dade"/>
+<text x="664" y="747" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#2c2d35" textLength="24.8" lengthAdjust="spacingAndGlyphs">Jira</text>
+<line x1="24" y1="777.5" x2="976" y2="777.5" stroke="#eeeef1"/>
+<circle cx="29" cy="812" r="4" fill="#8f909c"/>
+<text x="42" y="816.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#70717e" letter-spacing="1.6">EARLIER &amp; ADJACENT</text>
+<rect x="220.5" y="795.5" width="71" height="33" rx="9" fill="#f7f7f8" stroke="#c9cad0" stroke-dasharray="4 3"/>
+<text x="233" y="817" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#70717e" textLength="46.2" lengthAdjust="spacingAndGlyphs">jQuery</text>
+<rect x="301.5" y="795.5" width="82" height="33" rx="9" fill="#f7f7f8" stroke="#c9cad0" stroke-dasharray="4 3"/>
+<text x="314" y="817" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#70717e" textLength="56.7" lengthAdjust="spacingAndGlyphs">Polymer</text>
+<rect x="393.5" y="795.5" width="55" height="33" rx="9" fill="#f7f7f8" stroke="#c9cad0" stroke-dasharray="4 3"/>
+<text x="406" y="817" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#70717e" textLength="29.7" lengthAdjust="spacingAndGlyphs">PHP</text>
+<rect x="458.5" y="795.5" width="78" height="33" rx="9" fill="#f7f7f8" stroke="#c9cad0" stroke-dasharray="4 3"/>
+<text x="471" y="817" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#70717e" textLength="52.8" lengthAdjust="spacingAndGlyphs">C / C++</text>
+<rect x="546.5" y="795.5" width="200" height="33" rx="9" fill="#f7f7f8" stroke="#c9cad0" stroke-dasharray="4 3"/>
+<text x="559" y="817" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#70717e" textLength="175.4" lengthAdjust="spacingAndGlyphs">Embedded systems &amp; IoT</text>
+<rect x="756.5" y="795.5" width="68" height="33" rx="9" fill="#f7f7f8" stroke="#c9cad0" stroke-dasharray="4 3"/>
+<text x="769" y="817" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#70717e" textLength="42.6" lengthAdjust="spacingAndGlyphs">MQTT</text>
 </svg>

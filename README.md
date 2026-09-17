@@ -5,10 +5,8 @@
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 581px), (prefers-color-scheme: dark) and (min-width: 768px) and (max-width: 869px)" srcset="assets/hero-mobile-dark.svg">
-  <source media="(max-width: 581px), (min-width: 768px) and (max-width: 869px)" srcset="assets/hero-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark) and (min-width: 582px) and (max-width: 767px), (prefers-color-scheme: dark) and (min-width: 870px) and (max-width: 1163px)" srcset="assets/hero-tablet-dark.svg">
-  <source media="(min-width: 582px) and (max-width: 767px), (min-width: 870px) and (max-width: 1163px)" srcset="assets/hero-tablet-light.svg">
+  <source media="(max-width: 581px), (min-width: 768px) and (max-width: 869px)" srcset="assets/hero-mobile.svg">
+  <source media="(min-width: 582px) and (max-width: 767px), (min-width: 870px) and (max-width: 1163px)" srcset="assets/hero-tablet.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <img alt="Oscar Arenas — Senior Software Engineer · Next.js · Node · TypeScript · AI/LLM. 14+ years shipping web products for global brands — now building AI‑augmented experiences. Bogotá, Colombia · open to remote (LATAM · US · EU) · available for new opportunities." src="assets/hero-light.svg" width="100%">
 </picture>
@@ -26,10 +24,8 @@
 <br>
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 581px), (prefers-color-scheme: dark) and (min-width: 768px) and (max-width: 869px)" srcset="assets/stats-mobile-dark.svg">
-  <source media="(max-width: 581px), (min-width: 768px) and (max-width: 869px)" srcset="assets/stats-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark) and (min-width: 582px) and (max-width: 767px), (prefers-color-scheme: dark) and (min-width: 870px) and (max-width: 1163px)" srcset="assets/stats-tablet-dark.svg">
-  <source media="(min-width: 582px) and (max-width: 767px), (min-width: 870px) and (max-width: 1163px)" srcset="assets/stats-tablet-light.svg">
+  <source media="(max-width: 581px), (min-width: 768px) and (max-width: 869px)" srcset="assets/stats-mobile.svg">
+  <source media="(min-width: 582px) and (max-width: 767px), (min-width: 870px) and (max-width: 1163px)" srcset="assets/stats-tablet.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <img alt="14+ years shipping web products for global brands · 90 product squads adopted my component libraries · 12 engineers mentored on TypeScript, accessibility and Core Web Vitals · 251 hours of certified learning in 2025 across 13 credentials" src="assets/stats-light.svg" width="100%">
 </picture>
@@ -58,14 +54,14 @@ I build web products that hold up in production — and, lately, the AI layer on
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 581px), (prefers-color-scheme: dark) and (min-width: 768px) and (max-width: 869px)" srcset="assets/stack-mobile-dark.svg">
-  <source media="(max-width: 581px), (min-width: 768px) and (max-width: 869px)" srcset="assets/stack-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark) and (min-width: 582px) and (max-width: 767px), (prefers-color-scheme: dark) and (min-width: 870px) and (max-width: 1163px)" srcset="assets/stack-tablet-dark.svg">
-  <source media="(min-width: 582px) and (max-width: 767px), (min-width: 870px) and (max-width: 1163px)" srcset="assets/stack-tablet-light.svg">
+  <source media="(max-width: 581px), (min-width: 768px) and (max-width: 869px)" srcset="assets/stack-mobile.svg">
+  <source media="(min-width: 582px) and (max-width: 767px), (min-width: 870px) and (max-width: 1163px)" srcset="assets/stack-tablet.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Frontend: Next.js, React, TypeScript, Astro, Vue, Angular, Tailwind CSS, React Native. Backend & data: Node.js, Express, Fastify, GraphQL, WebSockets, PostgreSQL, MongoDB, Supabase. AI / LLM: OpenAI API, Anthropic API, Claude, prompt engineering, structured outputs, LLM product flows, MCP / WebMCP, AI‑assisted coding. Cloud & delivery: AWS, Google Cloud, Azure, Firebase, Vercel, Docker, GitHub Actions, CI/CD. Quality & craft: Jest, Testing Library, Cypress, Playwright, WCAG 2.2, Core Web Vitals, design systems, micro‑frontends, PWA, OWASP Top 10. Design & hardware: Figma, design tokens, UI/UX foundations, C/C++, embedded / IoT, MQTT." src="assets/stack-light.svg" width="100%">
+  <img alt="Core stack: React (10+ years), TypeScript (7+), Node.js (7+), Next.js (5+), design systems (5+), accessibility (5+), web performance (2+), LLM integration (since 2024). Frontend: React, Next.js, Astro, Vue, Angular, React Native, TypeScript, JavaScript, HTML5 & CSS3, Tailwind CSS, SCSS, CSS‑in‑JS. State & data: Redux, Zustand, Context API, MobX, Vuex, GraphQL (Apollo), REST APIs. Backend & data: Node.js, Express, WebSockets, PostgreSQL, MySQL, MongoDB, Supabase. AI & LLM: OpenAI & Anthropic APIs, prompt engineering, structured outputs, LLM product flows, WebMCP / MCP, AI‑assisted coding, Midjourney, DALL·E. Quality & craft: Jest, React Testing Library, Cypress, Playwright, ESLint / Prettier, WCAG 2.2, Core Web Vitals, micro‑frontends, PWA & Service Workers, OWASP Top 10. Platform & DevOps: Vercel, Firebase, AWS, Google Cloud, Azure, Docker, GitHub Actions, CI/CD, Linux. Design & tooling: Figma, design tokens, Storybook, prototyping, Jira. Earlier & adjacent: jQuery, Polymer, PHP, C/C++, embedded systems & IoT, MQTT." src="assets/stack-light.svg" width="100%">
 </picture>
 </p>
+
+<p align="center"><sub>Highlighted row = core stack with hands‑on years · dashed chips = earlier or adjacent work, kept for context · full detail on the <a href="https://resume-oscarenas.web.app/#skills">resume</a>.</sub></p>
 
 <!--
   Hidden for now. To bring it back: remove this comment wrapper and renumber the sections below (03 → 04, …).
@@ -101,4 +97,4 @@ Based in Bogotá (UTC‑5) · intro calls Mon–Fri, 09:00–17:00. Email or Lin
   <a href="https://resume-oscarenas.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-resume-dark.svg"><img alt="View resume" src="assets/btn-resume-light.svg" height="40"></picture></a>
 </p>
 
-<p align="center"><sub>Hand‑built SVG, theme‑aware via <code>&lt;picture&gt;</code> · no third‑party badges, no trackers.</sub></p>
+<p align="center"><sub>Hand‑built SVG, theme‑aware via <code>&lt;picture&gt;</code> and <code>prefers-color-scheme</code> · no third‑party badges, no trackers.</sub></p>

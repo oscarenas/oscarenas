@@ -24,56 +24,82 @@ export const stats = [
   { value: '251h', lines: ['certified learning in 2025', 'across 13 credentials'], linesShort: ['certified learning', 'in 2025 · 13 credentials'] },
 ];
 
+// Core stack — the highlighted first row of the board, with hands-on years.
+// Mirrors the "Core stack" block of the resume site.
+export const core = [
+  { name: 'React', meta: '10+ yrs' },
+  { name: 'TypeScript', meta: '7+ yrs' },
+  { name: 'Node.js', meta: '7+ yrs' },
+  { name: 'Next.js', meta: '5+ yrs' },
+  { name: 'Design systems', meta: '5+ yrs' },
+  { name: 'Accessibility', meta: '5+ yrs' },
+  { name: 'Web performance', meta: '2+ yrs' },
+  { name: 'LLM integration', meta: 'since 2024' },
+];
+
+// Grouped like the skills section of the resume site. `legacy` groups render
+// as muted, dashed chips: honest about the past without competing with the present.
 export const stack = [
   {
     label: 'Frontend',
     color: '#3b63ff',
-    items: ['Next.js', 'React', 'TypeScript', 'Astro', 'Vue', 'Angular', 'Tailwind CSS', 'React Native'],
+    items: ['React', 'Next.js', 'Astro', 'Vue', 'Angular', 'React Native', 'TypeScript', 'JavaScript (ES202x)', 'HTML5 & CSS3', 'Tailwind CSS', 'SCSS', 'CSS‑in‑JS'],
+  },
+  {
+    label: 'State & data',
+    color: '#0ea5e9',
+    items: ['Redux', 'Zustand', 'Context API', 'MobX', 'Vuex', 'GraphQL (Apollo)', 'REST APIs'],
   },
   {
     label: 'Backend & data',
     color: '#22c55e',
-    items: ['Node.js', 'Express', 'Fastify', 'GraphQL', 'WebSockets', 'PostgreSQL', 'MongoDB', 'Supabase'],
+    items: ['Node.js', 'Express', 'WebSockets', 'PostgreSQL', 'MySQL', 'MongoDB', 'Supabase'],
   },
   {
-    label: 'AI / LLM',
+    label: 'AI & LLM',
     color: '#a855f7',
     items: [
-      'OpenAI API',
-      'Anthropic API',
-      'Claude',
+      'OpenAI & Anthropic APIs',
       'Prompt engineering',
       'Structured outputs',
       'LLM product flows',
-      'MCP / WebMCP',
+      'WebMCP / MCP',
       'AI‑assisted coding',
+      'Midjourney',
+      'DALL·E',
     ],
-  },
-  {
-    label: 'Cloud & delivery',
-    color: '#f59e0b',
-    items: ['AWS', 'Google Cloud', 'Azure', 'Firebase', 'Vercel', 'Docker', 'GitHub Actions', 'CI/CD'],
   },
   {
     label: 'Quality & craft',
     color: '#f43f5e',
     items: [
       'Jest',
-      'Testing Library',
+      'React Testing Library',
       'Cypress',
       'Playwright',
+      'ESLint / Prettier',
       'WCAG 2.2',
       'Core Web Vitals',
-      'Design systems',
       'Micro‑frontends',
-      'PWA',
+      'PWA & Service Workers',
       'OWASP Top 10',
     ],
   },
   {
-    label: 'Design & hardware',
+    label: 'Platform & DevOps',
+    color: '#f59e0b',
+    items: ['Vercel', 'Firebase', 'AWS', 'Google Cloud', 'Azure', 'Docker', 'GitHub Actions', 'CI/CD', 'Linux'],
+  },
+  {
+    label: 'Design & tooling',
     color: '#06b6d4',
-    items: ['Figma', 'Design tokens', 'UI/UX foundations', 'C / C++', 'Embedded / IoT', 'MQTT'],
+    items: ['Figma', 'Design tokens', 'Storybook', 'Prototyping', 'Jira'],
+  },
+  {
+    label: 'Earlier & adjacent',
+    color: '#8f909c',
+    legacy: true,
+    items: ['jQuery', 'Polymer', 'PHP', 'C / C++', 'Embedded systems & IoT', 'MQTT'],
   },
 ];
 

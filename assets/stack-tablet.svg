@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1384" viewBox="0 0 640 1384" role="img" aria-label="Core stack: React (10+ yrs), TypeScript (7+ yrs), Node.js (7+ yrs), Next.js (5+ yrs), Design systems (5+ yrs), Accessibility (5+ yrs), Web performance (2+ yrs), LLM integration (since 2024). Frontend: React, Next.js, Astro, Vue, Angular, React Native, TypeScript, JavaScript (ES202x), HTML5 &amp; CSS3, Tailwind CSS, SCSS, CSS‑in‑JS. State &amp; data: Redux, Zustand, Context API, MobX, Vuex, GraphQL (Apollo), REST APIs. Backend &amp; data: Node.js, Express, WebSockets, PostgreSQL, MySQL, MongoDB, Supabase. AI &amp; LLM: OpenAI &amp; Anthropic APIs, Prompt engineering, Structured outputs, LLM product flows, WebMCP / MCP, AI‑assisted coding, Midjourney, DALL·E. Quality &amp; craft: Jest, React Testing Library, Cypress, Playwright, ESLint / Prettier, WCAG 2.2, Core Web Vitals, Micro‑frontends, PWA &amp; Service Workers, OWASP Top 10. Platform &amp; DevOps: Vercel, Firebase, AWS, Google Cloud, Azure, Docker, GitHub Actions, CI/CD, Linux. Design &amp; tooling: Figma, Design tokens, Storybook, Prototyping, Jira. Earlier &amp; adjacent: jQuery, Polymer, PHP, C / C++, Embedded systems &amp; IoT, MQTT">
+<title>Core stack: React (10+ yrs), TypeScript (7+ yrs), Node.js (7+ yrs), Next.js (5+ yrs), Design systems (5+ yrs), Accessibility (5+ yrs), Web performance (2+ yrs), LLM integration (since 2024). Frontend: React, Next.js, Astro, Vue, Angular, React Native, TypeScript, JavaScript (ES202x), HTML5 &amp; CSS3, Tailwind CSS, SCSS, CSS‑in‑JS. State &amp; data: Redux, Zustand, Context API, MobX, Vuex, GraphQL (Apollo), REST APIs. Backend &amp; data: Node.js, Express, WebSockets, PostgreSQL, MySQL, MongoDB, Supabase. AI &amp; LLM: OpenAI &amp; Anthropic APIs, Prompt engineering, Structured outputs, LLM product flows, WebMCP / MCP, AI‑assisted coding, Midjourney, DALL·E. Quality &amp; craft: Jest, React Testing Library, Cypress, Playwright, ESLint / Prettier, WCAG 2.2, Core Web Vitals, Micro‑frontends, PWA &amp; Service Workers, OWASP Top 10. Platform &amp; DevOps: Vercel, Firebase, AWS, Google Cloud, Azure, Docker, GitHub Actions, CI/CD, Linux. Design &amp; tooling: Figma, Design tokens, Storybook, Prototyping, Jira. Earlier &amp; adjacent: jQuery, Polymer, PHP, C / C++, Embedded systems &amp; IoT, MQTT</title>
+<defs><style>:root{--bg:#fbfbfa;--card:#ffffff;--border:#d9dade;--hairline:#eeeef1;--grid:rgba(14,15,20,0.06);--text:#0e0f14;--text2:#474853;--text3:#70717e;--muted:#8f909c;--brand:#2542f5;--accent:#3b63ff;--glow:0.16;--chipBg:#ffffff;--chipBorder:#d9dade;--chipText:#2c2d35;--chipCoreBg:#eef2ff;--chipCoreBorder:#c7d2fe;--chipCoreText:#1e2f9e;--chipCoreMeta:#5b6bd6;--chipMutedBg:#f7f7f8;--chipMutedBorder:#c9cad0;--chipMutedText:#70717e;--pillBg:#f0fdf4;--pillBorder:#bbf7d0;--pillText:#166534;--btnBg:#ffffff;--btnBorder:#d9dade;--btnText:#1a1b22;--btnPrimaryBg:#2542f5;--btnPrimaryText:#ffffff}@media (prefers-color-scheme: dark){:root{--bg:#0e0f14;--card:#13141b;--border:#2c2d35;--hairline:#1f2028;--grid:rgba(255,255,255,0.05);--text:#f7f7f8;--text2:#b7b8c0;--text3:#8f909c;--muted:#70717e;--brand:#93b3ff;--accent:#3b63ff;--glow:0.28;--chipBg:#13141b;--chipBorder:#2c2d35;--chipText:#eeeef1;--chipCoreBg:rgba(59,99,255,0.14);--chipCoreBorder:rgba(147,179,255,0.38);--chipCoreText:#dbe4ff;--chipCoreMeta:#93b3ff;--chipMutedBg:rgba(255,255,255,0.02);--chipMutedBorder:#33343d;--chipMutedText:#8f909c;--pillBg:rgba(34,197,94,0.10);--pillBorder:rgba(34,197,94,0.35);--pillText:#86efac;--btnBg:#13141b;--btnBorder:#2c2d35;--btnText:#f7f7f8;--btnPrimaryBg:#3b63ff;--btnPrimaryText:#ffffff}}</style></defs>
+<rect x="0.5" y="0.5" width="639" height="1383" rx="16" style="fill:var(--card);stroke:var(--border)" />
+<circle cx="23" cy="28" r="4" style="fill:var(--accent)" />
+<text x="36" y="32.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">CORE STACK</text>
+<rect x="18.5" y="46.5" width="121" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="31" y="68" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="39" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">React</text>
+<text x="78" y="67.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="49.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">10+ yrs</text>
+<rect x="149.5" y="46.5" width="150" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="162" y="68" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="74.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">TypeScript</text>
+<text x="244.4" y="67.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="42.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">7+ yrs</text>
+<rect x="309.5" y="46.5" width="128" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="322" y="68" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="52.5" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">Node.js</text>
+<text x="382.5" y="67.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="42.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">7+ yrs</text>
+<rect x="18.5" y="89.5" width="123" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="31" y="111" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="47.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">Next.js</text>
+<text x="86.7" y="110.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="42.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">5+ yrs</text>
+<rect x="151.5" y="89.5" width="183" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="164" y="111" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="108" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">Design systems</text>
+<text x="280" y="110.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="42.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">5+ yrs</text>
+<rect x="344.5" y="89.5" width="161" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="357" y="111" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="85.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">Accessibility</text>
+<text x="450.7" y="110.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="42.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">5+ yrs</text>
+<rect x="18.5" y="132.5" width="200" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="31" y="154" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="124.5" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">Web performance</text>
+<text x="163.5" y="153.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="42.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">2+ yrs</text>
+<rect x="228.5" y="132.5" width="211" height="33" rx="9" style="fill:var(--chipCoreBg);stroke:var(--chipCoreBorder)" />
+<text x="241" y="154" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" textLength="107.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreText)">LLM integration</text>
+<text x="356.7" y="153.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.7" font-weight="500" textLength="70.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipCoreMeta)">since 2024</text>
+<line x1="18" y1="184.5" x2="622" y2="184.5" style="stroke:var(--border)" />
+<circle cx="23" cy="210" r="4" fill="#3b63ff"/>
+<text x="36" y="214.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">FRONTEND</text>
+<rect x="18.5" y="228.5" width="64" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="39" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">React</text>
+<rect x="92.5" y="228.5" width="73" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="105" y="250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="47.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Next.js</text>
+<rect x="175.5" y="228.5" width="62" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="188" y="250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="36.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Astro</text>
+<rect x="247.5" y="228.5" width="52" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="260" y="250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="27.3" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Vue</text>
+<rect x="309.5" y="228.5" width="79" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="322" y="250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="53.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Angular</text>
+<rect x="18.5" y="271.5" width="113" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="87.5" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">React Native</text>
+<rect x="141.5" y="271.5" width="99" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="154" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="74.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">TypeScript</text>
+<rect x="250.5" y="271.5" width="163" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="263" y="293" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="137.9" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">JavaScript (ES202x)</text>
+<rect x="18.5" y="314.5" width="131" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="336" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="106.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">HTML5 &amp; CSS3</text>
+<rect x="159.5" y="314.5" width="116" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="172" y="336" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="91.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Tailwind CSS</text>
+<rect x="285.5" y="314.5" width="63" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="298" y="336" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="38.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">SCSS</text>
+<rect x="358.5" y="314.5" width="93" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="371" y="336" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="68.3" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">CSS‑in‑JS</text>
+<line x1="18" y1="366.5" x2="622" y2="366.5" style="stroke:var(--hairline)" />
+<circle cx="23" cy="392" r="4" fill="#0ea5e9"/>
+<text x="36" y="396.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">STATE &amp; DATA</text>
+<rect x="18.5" y="410.5" width="69" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="432" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="43.5" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Redux</text>
+<rect x="97.5" y="410.5" width="81" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="110" y="432" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="55.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Zustand</text>
+<rect x="188.5" y="410.5" width="107" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="201" y="432" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="82.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Context API</text>
+<rect x="305.5" y="410.5" width="66" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="318" y="432" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="41.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">MobX</text>
+<rect x="18.5" y="453.5" width="60" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="475" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="35.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Vuex</text>
+<rect x="88.5" y="453.5" width="145" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="101" y="475" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="120" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">GraphQL (Apollo)</text>
+<rect x="243.5" y="453.5" width="96" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="256" y="475" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="71.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">REST APIs</text>
+<line x1="18" y1="505.5" x2="622" y2="505.5" style="stroke:var(--hairline)" />
+<circle cx="23" cy="531" r="4" fill="#22c55e"/>
+<text x="36" y="535.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">BACKEND &amp; DATA</text>
+<rect x="18.5" y="549.5" width="78" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="571" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="52.5" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Node.js</text>
+<rect x="106.5" y="549.5" width="79" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="119" y="571" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="53.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Express</text>
+<rect x="195.5" y="549.5" width="112" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="208" y="571" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="86.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">WebSockets</text>
+<rect x="18.5" y="592.5" width="107" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="614" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="81.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">PostgreSQL</text>
+<rect x="135.5" y="592.5" width="75" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="148" y="614" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="50.3" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">MySQL</text>
+<rect x="220.5" y="592.5" width="94" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="233" y="614" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="68.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">MongoDB</text>
+<rect x="324.5" y="592.5" width="93" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="337" y="614" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="67.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Supabase</text>
+<line x1="18" y1="644.5" x2="622" y2="644.5" style="stroke:var(--hairline)" />
+<circle cx="23" cy="670" r="4" fill="#a855f7"/>
+<text x="36" y="674.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">AI &amp; LLM</text>
+<rect x="18.5" y="688.5" width="198" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="710" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="173.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">OpenAI &amp; Anthropic APIs</text>
+<rect x="226.5" y="688.5" width="162" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="239" y="710" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="136.5" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Prompt engineering</text>
+<rect x="18.5" y="731.5" width="155" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="753" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="129.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Structured outputs</text>
+<rect x="183.5" y="731.5" width="153" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="196" y="753" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="128" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">LLM product flows</text>
+<rect x="346.5" y="731.5" width="138" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="359" y="753" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="113.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">WebMCP / MCP</text>
+<rect x="18.5" y="774.5" width="151" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="796" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="126.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">AI‑assisted coding</text>
+<rect x="179.5" y="774.5" width="103" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="192" y="796" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="78.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Midjourney</text>
+<rect x="292.5" y="774.5" width="75" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="305" y="796" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="49.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">DALL·E</text>
+<line x1="18" y1="826.5" x2="622" y2="826.5" style="stroke:var(--hairline)" />
+<circle cx="23" cy="852" r="4" fill="#f43f5e"/>
+<text x="36" y="856.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">QUALITY &amp; CRAFT</text>
+<rect x="18.5" y="870.5" width="53" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="892" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="28.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Jest</text>
+<rect x="81.5" y="870.5" width="170" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="94" y="892" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="145.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">React Testing Library</text>
+<rect x="261.5" y="870.5" width="81" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="274" y="892" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="55.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Cypress</text>
+<rect x="352.5" y="870.5" width="98" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="365" y="892" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="72.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Playwright</text>
+<rect x="18.5" y="913.5" width="134" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="935" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="108.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">ESLint / Prettier</text>
+<rect x="162.5" y="913.5" width="97" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="175" y="935" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="72.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">WCAG 2.2</text>
+<rect x="269.5" y="913.5" width="137" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="282" y="935" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="111.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Core Web Vitals</text>
+<rect x="18.5" y="956.5" width="135" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="978" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="110.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Micro‑frontends</text>
+<rect x="163.5" y="956.5" width="191" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="176" y="978" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="165.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">PWA &amp; Service Workers</text>
+<rect x="364.5" y="956.5" width="132" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="377" y="978" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="107.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">OWASP Top 10</text>
+<line x1="18" y1="1008.5" x2="622" y2="1008.5" style="stroke:var(--hairline)" />
+<circle cx="23" cy="1034" r="4" fill="#f59e0b"/>
+<text x="36" y="1038.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">PLATFORM &amp; DEVOPS</text>
+<rect x="18.5" y="1052.5" width="69" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="1074" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="44" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Vercel</text>
+<rect x="97.5" y="1052.5" width="84" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="110" y="1074" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="58.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Firebase</text>
+<rect x="191.5" y="1052.5" width="59" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="204" y="1074" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="34.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">AWS</text>
+<rect x="260.5" y="1052.5" width="119" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="273" y="1074" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="94.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Google Cloud</text>
+<rect x="389.5" y="1052.5" width="65" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="402" y="1074" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="40.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Azure</text>
+<rect x="18.5" y="1095.5" width="74" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="1117" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="49.1" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Docker</text>
+<rect x="102.5" y="1095.5" width="129" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="115" y="1117" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="104.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">GitHub Actions</text>
+<rect x="241.5" y="1095.5" width="67" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="254" y="1117" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="42" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">CI/CD</text>
+<rect x="318.5" y="1095.5" width="62" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="331" y="1117" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="36.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Linux</text>
+<line x1="18" y1="1147.5" x2="622" y2="1147.5" style="stroke:var(--hairline)" />
+<circle cx="23" cy="1173" r="4" fill="#06b6d4"/>
+<text x="36" y="1177.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">DESIGN &amp; TOOLING</text>
+<rect x="18.5" y="1191.5" width="67" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="31" y="1213" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="42.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Figma</text>
+<rect x="95.5" y="1191.5" width="123" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="108" y="1213" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="97.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Design tokens</text>
+<rect x="228.5" y="1191.5" width="96" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="241" y="1213" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="70.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Storybook</text>
+<rect x="334.5" y="1191.5" width="105" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="347" y="1213" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="80.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Prototyping</text>
+<rect x="449.5" y="1191.5" width="50" height="33" rx="9" style="fill:var(--chipBg);stroke:var(--chipBorder)" />
+<text x="462" y="1213" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="24.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipText)">Jira</text>
+<line x1="18" y1="1243.5" x2="622" y2="1243.5" style="stroke:var(--hairline)" />
+<circle cx="23" cy="1269" r="4" fill="#8f909c"/>
+<text x="36" y="1273.5" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.6" style="fill:var(--text3)">EARLIER &amp; ADJACENT</text>
+<rect x="18.5" y="1287.5" width="71" height="33" rx="9" stroke-dasharray="4 3" style="fill:var(--chipMutedBg);stroke:var(--chipMutedBorder)" />
+<text x="31" y="1309" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="46.2" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipMutedText)">jQuery</text>
+<rect x="99.5" y="1287.5" width="82" height="33" rx="9" stroke-dasharray="4 3" style="fill:var(--chipMutedBg);stroke:var(--chipMutedBorder)" />
+<text x="112" y="1309" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="56.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipMutedText)">Polymer</text>
+<rect x="191.5" y="1287.5" width="55" height="33" rx="9" stroke-dasharray="4 3" style="fill:var(--chipMutedBg);stroke:var(--chipMutedBorder)" />
+<text x="204" y="1309" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="29.7" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipMutedText)">PHP</text>
+<rect x="256.5" y="1287.5" width="78" height="33" rx="9" stroke-dasharray="4 3" style="fill:var(--chipMutedBg);stroke:var(--chipMutedBorder)" />
+<text x="269" y="1309" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="52.8" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipMutedText)">C / C++</text>
+<rect x="18.5" y="1330.5" width="200" height="33" rx="9" stroke-dasharray="4 3" style="fill:var(--chipMutedBg);stroke:var(--chipMutedBorder)" />
+<text x="31" y="1352" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="175.4" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipMutedText)">Embedded systems &amp; IoT</text>
+<rect x="228.5" y="1330.5" width="68" height="33" rx="9" stroke-dasharray="4 3" style="fill:var(--chipMutedBg);stroke:var(--chipMutedBorder)" />
+<text x="241" y="1352" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" textLength="42.6" lengthAdjust="spacingAndGlyphs" style="fill:var(--chipMutedText)">MQTT</text>
+</svg>

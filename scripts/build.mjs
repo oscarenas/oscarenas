@@ -3,12 +3,25 @@
 //
 // GitHub renders README images through <img>, so the SVGs can't load fonts or
 // external resources — everything here uses system font stacks and inline
-// styles only. Light/dark variants are picked with <picture> in the README.
+// styles only.
+//
+// Theme switching works two ways, and the split is forced by GitHub:
+// - Desktop tier: a light/dark PAIR, picked with <picture> +
+//   `(prefers-color-scheme: dark)`, which GitHub rewrites to follow its own
+//   appearance setting.
+// - Tablet/mobile tiers: ONE adaptive file each, with both palettes inside and
+//   an `@media (prefers-color-scheme: dark)` of its own. GitHub rewrites any
+//   <source media> that mentions `prefers-color-scheme` to an always/never
+//   query and DROPS every other condition in it (measured in DevTools:
+//   `(prefers-color-scheme: dark) and (min-width: 582px)…` came back as
+//   `(prefers-color-scheme: light),(prefers-color-scheme: dark)`), so a width
+//   tier can't also be theme-gated in the README. Width-only sources are left
+//   untouched, hence: width sources first, then the desktop dark source.
 
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { profile, stats, stack, buttons } from '../profile.mjs';
+import { profile, stats, core, stack, buttons } from '../profile.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'assets');
@@ -33,6 +46,13 @@ const themes = {
     chipBg: '#ffffff',
     chipBorder: '#d9dade',
     chipText: '#2c2d35',
+    chipCoreBg: '#eef2ff',
+    chipCoreBorder: '#c7d2fe',
+    chipCoreText: '#1e2f9e',
+    chipCoreMeta: '#5b6bd6',
+    chipMutedBg: '#f7f7f8',
+    chipMutedBorder: '#c9cad0',
+    chipMutedText: '#70717e',
     pillBg: '#f0fdf4',
     pillBorder: '#bbf7d0',
     pillText: '#166534',
@@ -58,6 +78,13 @@ const themes = {
     chipBg: '#13141b',
     chipBorder: '#2c2d35',
     chipText: '#eeeef1',
+    chipCoreBg: 'rgba(59,99,255,0.14)',
+    chipCoreBorder: 'rgba(147,179,255,0.38)',
+    chipCoreText: '#dbe4ff',
+    chipCoreMeta: '#93b3ff',
+    chipMutedBg: 'rgba(255,255,255,0.02)',
+    chipMutedBorder: '#33343d',
+    chipMutedText: '#8f909c',
     pillBg: 'rgba(34,197,94,0.10)',
     pillBorder: 'rgba(34,197,94,0.35)',
     pillText: '#86efac',
@@ -68,6 +95,41 @@ const themes = {
     btnPrimaryText: '#ffffff',
   },
 };
+
+// ---------------------------------------------------------------------------
+// Adaptive tokens — one file that follows the viewer's colour scheme.
+//
+// Every token becomes `var(--token)`; the light values live on `:root` and the
+// dark ones under `@media (prefers-color-scheme: dark)`, inside the SVG. That
+// is the OS scheme, not GitHub's setting: they agree for the default "sync
+// with system", and Safari/iOS still ignore it in SVG-as-image (Interop 2026),
+// where the light palette is what shows. Presentation attributes can't take
+// var(), so `adaptiveSvg` moves those into a style attribute after rendering.
+// ---------------------------------------------------------------------------
+const TOKENS = Object.keys(themes.light);
+const adaptive = Object.fromEntries(TOKENS.map((k) => [k, `var(--${k})`]));
+const ADAPTIVE_STYLE =
+  `:root{${TOKENS.map((k) => `--${k}:${themes.light[k]}`).join(';')}}` +
+  `@media (prefers-color-scheme: dark){:root{${TOKENS.map((k) => `--${k}:${themes.dark[k]}`).join(';')}}}`;
+
+const VAR_ATTRS = /\s+(fill|stroke|stop-color|stop-opacity)="(var\(--[\w-]+\))"/g;
+
+function adaptiveSvg(markup) {
+  const moved = markup.replace(/<(\w[\w-]*)((?:\s+[\w:-]+="[^"]*")*)\s*(\/?)>/g, (tagMarkup, tag, attrs, close) => {
+    const decl = [];
+    const rest = attrs.replace(VAR_ATTRS, (_, prop, val) => {
+      decl.push(`${prop}:${val}`);
+      return '';
+    });
+    if (decl.length === 0) return tagMarkup;
+    const style = decl.join(';');
+    const merged = /\sstyle="/.test(rest)
+      ? rest.replace(/\sstyle="([^"]*)"/, (_, s) => ` style="${s.replace(/;?\s*$/, '')};${style}"`)
+      : `${rest} style="${style}"`;
+    return `<${tag}${merged}${close ? ' /' : ''}>`;
+  });
+  return moved.replace('<defs>', `<defs><style>${ADAPTIVE_STYLE}</style>`);
+}
 
 // The hero console is dark in both themes, like the one on the site.
 const console_ = {
@@ -300,36 +362,120 @@ function statsStrip(t, { W = 1000, cols = 4, gap = 20, short = false } = {}) {
 }
 
 // ---------------------------------------------------------------------------
-// Stack — category rows with wrapped chips
+// Stack — one card: a highlighted "core" row (with hands-on years), then
+// category rows of wrapped chips. Three chip variants carry the hierarchy:
+//   core   — brand-tinted, name + years in mono
+//   default— paper chip
+//   muted  — dashed hairline, low contrast (the `legacy` groups)
 // ---------------------------------------------------------------------------
 // `labelCol` = width of the side label column; 0 puts the label above the chips.
-function stackBoard(t, { W = 1000, labelCol = 178, font = 15 } = {}) {
+function stackBoard(t, { W = 1000, labelCol = 196, font = 15 } = {}) {
   const chipH = Math.round(font * 2.27), padX = Math.round(font * 0.87), gapX = 9, gapY = 9, padY = 18;
+  const px = labelCol ? 24 : 18; // card inset
+  const inner = W - px * 2;
+  const metaFont = Math.round(font * 0.78 * 10) / 10;
   const parts = [];
-  let y = 0;
-  stack.forEach((group, gi) => {
-    if (gi > 0) parts.push(`<line x1="0" y1="${y + 0.5}" x2="${W}" y2="${y + 0.5}" stroke="${t.hairline}"/>`);
-    y += padY;
-    // label — beside the first chip row, or on its own line above
-    const labelY = labelCol ? y + chipH / 2 : y + 8;
-    parts.push(`<circle cx="5" cy="${labelY}" r="4" fill="${group.color}"/>`);
-    parts.push(text(18, labelY + 4.5, group.label.toUpperCase(), { size: 12, weight: 600, fill: t.text3, family: MONO, tracking: 2 }));
-    if (!labelCol) y += 26;
-    // chips
-    let cx = labelCol, cy = y;
-    for (const item of group.items) {
-      const tw = measure(item, font);
-      const w = Math.round(padX * 2 + tw);
-      if (cx + w > W) { cx = labelCol; cy += chipH + gapY; }
-      parts.push(`<rect x="${cx + 0.5}" y="${cy + 0.5}" width="${w - 1}" height="${chipH - 1}" rx="9" fill="${t.chipBg}" stroke="${t.chipBorder}"/>`);
-      parts.push(text(cx + padX, cy + Math.round(chipH / 2 + font * 0.33), item, { size: font, weight: 500, fill: t.chipText, fit: tw }));
-      cx += w + gapX;
+
+  // One chip. Returns its width so the caller can flow the row.
+  const chip = (x, y, item, variant) => {
+    const baseY = y + Math.round(chipH / 2 + font * 0.33);
+    if (variant === 'core') {
+      const tw = measure(item.name, font), mw = measure(item.meta, metaFont, { mono: true });
+      const gap = Math.round(font * 0.55);
+      const w = Math.round(padX * 2 + tw + gap + mw);
+      return {
+        w,
+        markup: [
+          `<rect x="${x + 0.5}" y="${y + 0.5}" width="${w - 1}" height="${chipH - 1}" rx="9" fill="${t.chipCoreBg}" stroke="${t.chipCoreBorder}"/>`,
+          text(x + padX, baseY, item.name, { size: font, weight: 600, fill: t.chipCoreText, fit: tw }),
+          text(x + padX + tw + gap, baseY - 0.5, item.meta, { size: metaFont, weight: 500, fill: t.chipCoreMeta, family: MONO, fit: mw }),
+        ].join('\n'),
+      };
     }
-    y = cy + chipH + padY;
+    const tw = measure(item, font);
+    const w = Math.round(padX * 2 + tw);
+    const muted = variant === 'muted';
+    return {
+      w,
+      markup: [
+        `<rect x="${x + 0.5}" y="${y + 0.5}" width="${w - 1}" height="${chipH - 1}" rx="9" fill="${muted ? t.chipMutedBg : t.chipBg}" stroke="${muted ? t.chipMutedBorder : t.chipBorder}"${muted ? ' stroke-dasharray="4 3"' : ''}/>`,
+        text(x + padX, baseY, item, { size: font, weight: 500, fill: muted ? t.chipMutedText : t.chipText, fit: tw }),
+      ].join('\n'),
+    };
+  };
+
+  // Wrap chips into lines, `text-wrap: balance` style: keep the line count the
+  // greedy wrap needs, but pick the breaks that minimise squared trailing space,
+  // so a row reads 5 + 4 instead of 8 + 1 and narrow tiers don't go ragged.
+  const flow = (widths, avail) => {
+    const n = widths.length;
+    const lineW = (a, b) => widths.slice(a, b).reduce((s, w) => s + w, 0) + gapX * (b - a - 1);
+    let greedy = 1;
+    for (let i = 0, cx = 0; i < n; i++) {
+      if (cx > 0 && cx + widths[i] > avail) { greedy++; cx = 0; }
+      cx += widths[i] + gapX;
+    }
+    // dp[k][i]: best cost laying out the first i chips on k lines; prev[k][i] = break before line k.
+    const dp = Array.from({ length: greedy + 1 }, () => Array(n + 1).fill(Infinity));
+    const prev = Array.from({ length: greedy + 1 }, () => Array(n + 1).fill(-1));
+    dp[0][0] = 0;
+    for (let k = 1; k <= greedy; k++) {
+      for (let i = 1; i <= n; i++) {
+        for (let j = k - 1; j < i; j++) {
+          if (dp[k - 1][j] === Infinity) continue;
+          const slack = avail - lineW(j, i);
+          if (slack < 0 && i - j > 1) continue; // overflow is only tolerated for a chip wider than the row
+          const cost = dp[k - 1][j] + Math.max(0, slack) ** 2;
+          if (cost < dp[k][i]) { dp[k][i] = cost; prev[k][i] = j; }
+        }
+      }
+    }
+    const lines = [];
+    for (let k = greedy, i = n; k > 0; k--) {
+      const j = prev[k][i];
+      lines.unshift(Array.from({ length: i - j }, (_, m) => j + m));
+      i = j;
+    }
+    return lines;
+  };
+
+  // One labelled row: dot + mono label, chips flowing to the right (or below).
+  const row = (y, { label, color, items, variant }) => {
+    const labelY = labelCol ? y + chipH / 2 : y + 8;
+    parts.push(`<circle cx="${px + 5}" cy="${labelY}" r="4" fill="${color}"/>`);
+    parts.push(text(px + 18, labelY + 4.5, label.toUpperCase(), { size: 12, weight: 600, fill: t.text3, family: MONO, tracking: 1.6 }));
+    if (!labelCol) y += 26;
+
+    const widths = items.map((item) => chip(0, 0, item, variant).w);
+    const avail = inner - labelCol;
+    const lines = flow(widths, avail);
+    lines.forEach((line, li) => {
+      let cx = px + labelCol;
+      const cy = y + li * (chipH + gapY);
+      for (const i of line) {
+        parts.push(chip(cx, cy, items[i], variant).markup);
+        cx += widths[i] + gapX;
+      }
+    });
+    return y + lines.length * (chipH + gapY) - gapY;
+  };
+
+  let y = padY + 2;
+  // Core row — brand accent, then a full-strength divider to set it apart.
+  y = row(y, { label: 'Core stack', color: t.accent, items: core, variant: 'core' }) + padY;
+  parts.push(`<line x1="${px}" y1="${y + 0.5}" x2="${W - px}" y2="${y + 0.5}" stroke="${t.border}"/>`);
+
+  stack.forEach((group, gi) => {
+    if (gi > 0) parts.push(`<line x1="${px}" y1="${y + 0.5}" x2="${W - px}" y2="${y + 0.5}" stroke="${t.hairline}"/>`);
+    y = row(y + padY, { label: group.label, color: group.color, items: group.items, variant: group.legacy ? 'muted' : 'default' }) + padY;
   });
-  const H = y;
-  const title = stack.map((g) => `${g.label}: ${g.items.join(', ')}`).join('. ');
-  return svg({ w: W, h: H, title, body: parts.join('\n') });
+
+  const H = y + 2;
+  const card = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.card}" stroke="${t.border}"/>`;
+  const title =
+    `Core stack: ${core.map((c) => `${c.name} (${c.meta})`).join(', ')}. ` +
+    stack.map((g) => `${g.label}: ${g.items.join(', ')}`).join('. ');
+  return svg({ w: W, h: H, title, body: card + '\n' + parts.join('\n') });
 }
 
 // ---------------------------------------------------------------------------
@@ -360,25 +506,36 @@ function button(t, b) {
 
 // ---------------------------------------------------------------------------
 mkdirSync(OUT, { recursive: true });
-const written = [];
+const files = {};
+// Three tiers keyed to the README column width GitHub gives us:
+// desktop ~700-832px, tablet ~500-730px, mobile ~335-500px.
 for (const [name, t] of Object.entries(themes)) {
-  const files = {
-    // Three tiers keyed to the README column width GitHub gives us:
-    // desktop ~700-832px, tablet ~500-730px, mobile ~335-500px.
-    [`hero-${name}.svg`]: hero(t),
-    [`hero-tablet-${name}.svg`]: heroStacked(t, { W: 640, s: 1.2 }),
-    [`hero-mobile-${name}.svg`]: heroStacked(t, { W: 400 }),
-    [`stats-${name}.svg`]: statsStrip(t),
-    [`stats-tablet-${name}.svg`]: statsStrip(t, { W: 640, cols: 2 }),
-    [`stats-mobile-${name}.svg`]: statsStrip(t, { W: 400, cols: 2, gap: 16, short: true }),
-    [`stack-${name}.svg`]: stackBoard(t),
-    [`stack-tablet-${name}.svg`]: stackBoard(t, { W: 640, labelCol: 0 }),
-    [`stack-mobile-${name}.svg`]: stackBoard(t, { W: 400, labelCol: 0, font: 14 }),
-  };
+  // Desktop tier and buttons: a light/dark pair, switched by GitHub's theme.
+  files[`hero-${name}.svg`] = hero(t);
+  files[`stats-${name}.svg`] = statsStrip(t);
+  files[`stack-${name}.svg`] = stackBoard(t);
   for (const b of buttons) files[`btn-${b.id}-${name}.svg`] = button(t, b);
-  for (const [file, content] of Object.entries(files)) {
-    writeFileSync(join(OUT, file), content);
-    written.push(`${file} (${(content.length / 1024).toFixed(1)} kB)`);
+}
+// Narrow tiers: one adaptive file each, picked by width alone in the README.
+files['hero-tablet.svg'] = adaptiveSvg(heroStacked(adaptive, { W: 640, s: 1.2 }));
+files['hero-mobile.svg'] = adaptiveSvg(heroStacked(adaptive, { W: 400 }));
+files['stats-tablet.svg'] = adaptiveSvg(statsStrip(adaptive, { W: 640, cols: 2 }));
+files['stats-mobile.svg'] = adaptiveSvg(statsStrip(adaptive, { W: 400, cols: 2, gap: 16, short: true }));
+files['stack-tablet.svg'] = adaptiveSvg(stackBoard(adaptive, { W: 640, labelCol: 0 }));
+files['stack-mobile.svg'] = adaptiveSvg(stackBoard(adaptive, { W: 400, labelCol: 0, font: 14 }));
+
+const written = [];
+for (const [file, content] of Object.entries(files)) {
+  if (/var\(--[\w-]+\)"/.test(content.replace(/<style>[\s\S]*?<\/style>/g, '').replace(/style="[^"]*"/g, ''))) {
+    throw new Error(`${file}: a var() is left in a presentation attribute, where browsers ignore it`);
   }
+  writeFileSync(join(OUT, file), content);
+  written.push(`${file} (${(content.length / 1024).toFixed(1)} kB)`);
+}
+// Stale outputs from an older naming (e.g. the per-theme narrow tiers) would
+// keep working by accident until the README stopped pointing at them.
+for (const stale of readdirSync(OUT).filter((f) => f.endsWith('.svg') && !(f in files))) {
+  unlinkSync(join(OUT, stale));
+  written.push(`${stale} (removed: no longer generated)`);
 }
 console.log(written.join('\n'));
